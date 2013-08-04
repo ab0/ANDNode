@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{7440B6DC-E609-4554-8EB1-8EF2425ADF4D}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="_\_.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ANDNode\ANDNode.cbproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="_">
+        <MSBuild Projects="_\_.cbproj"/>
+    </Target>
+    <Target Name="_:Clean">
+        <MSBuild Projects="_\_.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="_:Make">
+        <MSBuild Projects="_\_.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="ANDNode">
+        <MSBuild Projects="ANDNode\ANDNode.cbproj"/>
+    </Target>
+    <Target Name="ANDNode:Clean">
+        <MSBuild Projects="ANDNode\ANDNode.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ANDNode:Make">
+        <MSBuild Projects="ANDNode\ANDNode.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="_;ANDNode"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="_:Clean;ANDNode:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="_:Make;ANDNode:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

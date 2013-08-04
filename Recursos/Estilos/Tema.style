@@ -1,0 +1,3443 @@
+object Form2: TLayout
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 983
+  ClientWidth = 898
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [dkDesktop, dkiPhone, dkiPad]
+  DesignerMobile = False
+  DesignerWidth = 0
+  DesignerHeight = 0
+  DesignerDeviceName = ''
+  DesignerOrientation = 0
+  object Memo2: TLayout
+    StyleName = 'Memo'
+    Height = 201.000000000000000000
+    Position.X = 456.000000000000000000
+    Position.Y = 184.000000000000000000
+    Width = 369.000000000000000000
+    object memostyle_2: TLayout
+      StyleName = 'memostyle'
+      Height = 131.000000000000000000
+      Position.X = 15.000000000000000000
+      Position.Y = 12.000000000000000000
+      Width = 334.000000000000000000
+      object background_1: TRectangle
+        StyleName = 'background'
+        Align = alContents
+        Fill.Color = xFF333333
+        Locked = True
+        Height = 127.000000000000000000
+        HitTest = False
+        Margins.Left = 2.000000000000000000
+        Margins.Top = 2.000000000000000000
+        Margins.Right = 2.000000000000000000
+        Margins.Bottom = 2.000000000000000000
+        Stroke.Color = xFF70A83B
+        XRadius = 2.000000000000000000
+        YRadius = 2.000000000000000000
+        Width = 330.000000000000000000
+        object TLayout
+          StyleName = 'content'
+          Align = alClient
+          Height = 119.000000000000000000
+          Width = 322.000000000000000000
+        end
+        object TScrollBar
+          StyleName = 'vscrollbar'
+          Align = alRight
+          Height = 119.000000000000000000
+          SmallChange = 0.000000000000000000
+          Orientation = orVertical
+          Position.X = 322.000000000000000000
+          Width = 8.000000000000000000
+        end
+        object TScrollBar
+          StyleName = 'hscrollbar'
+          Align = alBottom
+          Height = 8.000000000000000000
+          SmallChange = 0.000000000000000000
+          Orientation = orHorizontal
+          Position.Y = 119.000000000000000000
+          Width = 330.000000000000000000
+        end
+        object TSmallScrollBar
+          StyleName = 'vsmallscrollbar'
+          Align = alRight
+          Height = 8.000000000000000000
+          Padding.Left = 2.000000000000000000
+          SmallChange = 0.000000000000000000
+          Orientation = orVertical
+          Position.X = 99.000000000000000000
+          Position.Y = 2.000000000000000000
+          Visible = False
+          Width = 8.000000000000000000
+        end
+        object TSmallScrollBar
+          StyleName = 'hsmallscrollbar'
+          Align = alBottom
+          Height = 8.000000000000000000
+          Padding.Top = 2.000000000000000000
+          SmallChange = 0.000000000000000000
+          Orientation = orHorizontal
+          Position.X = 2.000000000000000000
+          Position.Y = 113.000000000000000000
+          Visible = False
+          Width = 150.000000000000000000
+        end
+        object TLayout
+          Align = alContents
+          Height = 127.000000000000000000
+          Width = 330.000000000000000000
+          object TLayout
+            Align = alBottom
+            Height = 20.000000000000000000
+            Position.Y = 107.000000000000000000
+            Width = 330.000000000000000000
+            object TSizeGrip
+              StyleName = 'sizegrip'
+              Align = alRight
+              Locked = True
+              Height = 20.000000000000000000
+              Position.X = 310.000000000000000000
+              Width = 20.000000000000000000
+            end
+          end
+        end
+      end
+      object d: TBrushObject
+        StyleName = 'foreground'
+        Brush.Color = xFF70A83B
+        Left = 464
+        Top = 336
+      end
+      object e: TBrushObject
+        StyleName = 'selection'
+        Brush.Color = x7070A83B
+        Left = 496
+        Top = 336
+      end
+    end
+  end
+  object ScrollBox: TLayout
+    StyleName = 'ScrollBox'
+    Height = 257.000000000000000000
+    Position.Y = 224.000000000000000000
+    Width = 449.000000000000000000
+    object ScrollBoxStyle: TLayout
+      StyleName = 'ScrollBoxStyle'
+      Height = 100.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 110.000000000000000000
+      Width = 200.000000000000000000
+      object TLayout
+        StyleName = 'background'
+        Align = alContents
+        Locked = True
+        Height = 100.000000000000000000
+        Width = 200.000000000000000000
+        object TLayout
+          StyleName = 'content'
+          Align = alClient
+          Height = 92.000000000000000000
+          Width = 192.000000000000000000
+        end
+        object TScrollBar
+          StyleName = 'vscrollbar'
+          Align = alRight
+          Height = 92.000000000000000000
+          SmallChange = 0.000000000000000000
+          Orientation = orVertical
+          Position.X = 192.000000000000000000
+          StyleLookup = 'ScrollBoxvscrollbar'
+          Width = 8.000000000000000000
+        end
+        object TScrollBar
+          StyleName = 'hscrollbar'
+          Align = alBottom
+          Height = 8.000000000000000000
+          SmallChange = 0.000000000000000000
+          Orientation = orHorizontal
+          Position.Y = 92.000000000000000000
+          StyleLookup = 'ScrollBoxhscrollbar'
+          Width = 200.000000000000000000
+        end
+        object TSmallScrollBar
+          StyleName = 'vsmallscrollbar'
+          Align = alRight
+          Height = 8.000000000000000000
+          Padding.Left = 2.000000000000000000
+          SmallChange = 0.000000000000000000
+          Orientation = orVertical
+          StyleLookup = 'ScrollBoxvsmallscrollbar'
+          Visible = False
+          Width = 8.000000000000000000
+        end
+        object TSmallScrollBar
+          StyleName = 'hsmallscrollbar'
+          Align = alBottom
+          Height = 8.000000000000000000
+          Padding.Top = 2.000000000000000000
+          SmallChange = 0.000000000000000000
+          Orientation = orHorizontal
+          StyleLookup = 'ScrollBoxhsmallscrollbar'
+          Visible = False
+          Width = 150.000000000000000000
+        end
+        object TLayout
+          Align = alContents
+          Height = 100.000000000000000000
+          Width = 200.000000000000000000
+          object TLayout
+            Align = alBottom
+            Height = 50.000000000000000000
+            Position.Y = 50.000000000000000000
+            Width = 200.000000000000000000
+            object TSizeGrip
+              StyleName = 'sizegrip'
+              Align = alRight
+              Locked = True
+              Height = 50.000000000000000000
+              Position.X = 180.000000000000000000
+              StyleLookup = 'ScrollBoxsizegrip'
+              Width = 20.000000000000000000
+            end
+          end
+        end
+      end
+    end
+    object ScrollBoxvscrollbar: TLayout
+      StyleName = 'ScrollBoxvscrollbar'
+      Height = 100.000000000000000000
+      Position.X = 234.000000000000000000
+      Position.Y = 110.000000000000000000
+      Width = 100.000000000000000000
+      object TButton
+        StyleName = 'leftbutton'
+        Align = alLeft
+        Height = 80.000000000000000000
+        Locked = True
+        Position.Y = 10.000000000000000000
+        StyleLookup = 'scrollbarleftbutton'
+        TabOrder = 0
+        Width = 10.000000000000000000
+      end
+      object TButton
+        StyleName = 'rightbutton'
+        Align = alRight
+        Height = 80.000000000000000000
+        Locked = True
+        Position.X = 90.000000000000000000
+        Position.Y = 10.000000000000000000
+        StyleLookup = 'scrollbarrightbutton'
+        TabOrder = 1
+        Width = 10.000000000000000000
+      end
+      object TButton
+        StyleName = 'topbutton'
+        Align = alTop
+        Height = 10.000000000000000000
+        Locked = True
+        StyleLookup = 'scrollbartopbutton'
+        TabOrder = 2
+        Width = 100.000000000000000000
+      end
+      object TButton
+        StyleName = 'bottombutton'
+        Align = alBottom
+        Height = 10.000000000000000000
+        Locked = True
+        Position.Y = 90.000000000000000000
+        StyleLookup = 'scrollbarbottombutton'
+        TabOrder = 3
+        Width = 100.000000000000000000
+      end
+      object TTrack
+        StyleName = 'htrack'
+        Align = alClient
+        Locked = True
+        Height = 80.000000000000000000
+        Orientation = orHorizontal
+        StyleLookup = 'scrollbarhtrackstyle'
+        TabOrder = 4
+        Width = 80.000000000000000000
+      end
+      object TTrack
+        StyleName = 'vtrack'
+        Align = alClient
+        Locked = True
+        Height = 80.000000000000000000
+        Orientation = orHorizontal
+        StyleLookup = 'scrollbarvtrackstyle'
+        TabOrder = 5
+        Width = 80.000000000000000000
+      end
+    end
+    object ScrollBoxhscrollbar: TLayout
+      StyleName = 'ScrollBoxhscrollbar'
+      Height = 100.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 5.000000000000000000
+      Width = 100.000000000000000000
+      object TButton
+        StyleName = 'leftbutton'
+        Align = alLeft
+        Height = 80.000000000000000000
+        Locked = True
+        Position.Y = 10.000000000000000000
+        StyleLookup = 'scrollbarleftbutton'
+        TabOrder = 0
+        Width = 10.000000000000000000
+      end
+      object TButton
+        StyleName = 'rightbutton'
+        Align = alRight
+        Height = 80.000000000000000000
+        Locked = True
+        Position.X = 90.000000000000000000
+        Position.Y = 10.000000000000000000
+        StyleLookup = 'scrollbarrightbutton'
+        TabOrder = 1
+        Width = 10.000000000000000000
+      end
+      object TButton
+        StyleName = 'topbutton'
+        Align = alTop
+        Height = 10.000000000000000000
+        Locked = True
+        StyleLookup = 'scrollbartopbutton'
+        TabOrder = 2
+        Width = 100.000000000000000000
+      end
+      object TButton
+        StyleName = 'bottombutton'
+        Align = alBottom
+        Height = 10.000000000000000000
+        Locked = True
+        Position.Y = 90.000000000000000000
+        StyleLookup = 'scrollbarbottombutton'
+        TabOrder = 3
+        Width = 100.000000000000000000
+      end
+      object TTrack
+        StyleName = 'htrack'
+        Align = alClient
+        Locked = True
+        Height = 80.000000000000000000
+        Orientation = orHorizontal
+        StyleLookup = 'scrollbarhtrackstyle'
+        TabOrder = 4
+        Width = 80.000000000000000000
+      end
+      object TTrack
+        StyleName = 'vtrack'
+        Align = alClient
+        Locked = True
+        Height = 80.000000000000000000
+        Orientation = orHorizontal
+        StyleLookup = 'scrollbarvtrackstyle'
+        TabOrder = 5
+        Width = 80.000000000000000000
+      end
+    end
+    object ScrollBoxvsmallscrollbar: TLayout
+      StyleName = 'ScrollBoxvsmallscrollbar'
+      Height = 100.000000000000000000
+      Position.X = 122.000000000000000000
+      Position.Y = 5.000000000000000000
+      Width = 100.000000000000000000
+      object TTrack
+        StyleName = 'htrack'
+        Align = alClient
+        Locked = True
+        Height = 100.000000000000000000
+        Orientation = orHorizontal
+        StyleLookup = 'scrollbarhtrackstyle'
+        TabOrder = 0
+        Width = 100.000000000000000000
+      end
+      object TTrack
+        StyleName = 'vtrack'
+        Align = alClient
+        Locked = True
+        Height = 100.000000000000000000
+        Orientation = orHorizontal
+        StyleLookup = 'scrollbarvtrackstyle'
+        TabOrder = 1
+        Width = 100.000000000000000000
+      end
+    end
+    object ScrollBoxhsmallscrollbar: TLayout
+      StyleName = 'ScrollBoxhsmallscrollbar'
+      Height = 100.000000000000000000
+      Position.X = 234.000000000000000000
+      Position.Y = 5.000000000000000000
+      Width = 100.000000000000000000
+      object TTrack
+        StyleName = 'htrack'
+        Align = alClient
+        Locked = True
+        Height = 100.000000000000000000
+        Orientation = orHorizontal
+        StyleLookup = 'scrollbarhtrackstyle'
+        TabOrder = 0
+        Width = 100.000000000000000000
+      end
+      object TTrack
+        StyleName = 'vtrack'
+        Align = alClient
+        Locked = True
+        Height = 100.000000000000000000
+        Orientation = orHorizontal
+        StyleLookup = 'scrollbarvtrackstyle'
+        TabOrder = 1
+        Width = 100.000000000000000000
+      end
+    end
+    object ScrollBoxsizegrip: TLayout
+      StyleName = 'ScrollBoxsizegrip'
+      Height = 100.000000000000000000
+      Position.X = 344.000000000000000000
+      Position.Y = 5.000000000000000000
+      Width = 100.000000000000000000
+      object TSubImage
+        Align = alCenter
+        Height = 15.000000000000000000
+        HitTest = False
+        SourceLookup = 'Windows 8 Desktopstyle.png'
+        SourceRect.LeftI = 380
+        SourceRect.RightI = 394
+        SourceRect.TopI = 182
+        SourceRect.BottomI = 197
+        Width = 14.000000000000000000
+        WrapMode = iwCenter
+      end
+    end
+  end
+  object ScrollBar: TLayout
+    StyleName = 'ScrollBar'
+    Height = 177.000000000000000000
+    Position.X = 432.000000000000000000
+    Width = 369.000000000000000000
+    object scrollbarvtrackstyle: TRectangle
+      StyleName = 'scrollbarvtrackstyle'
+      Fill.Kind = bkNone
+      Height = 63.000000000000000000
+      HitTest = False
+      Position.X = 112.000000000000000000
+      Position.Y = 29.000000000000000000
+      Stroke.Kind = bkNone
+      Width = 19.000000000000000000
+      object TThumb
+        StyleName = 'thumb'
+        Locked = True
+        Height = 46.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 5.000000000000000000
+        StyleLookup = 'vthumbstyle'
+        TabOrder = 0
+        Width = 10.000000000000000000
+      end
+    end
+    object scrollbarhtrackstyle: TRectangle
+      StyleName = 'scrollbarhtrackstyle'
+      Fill.Kind = bkNone
+      Height = 19.000000000000000000
+      HitTest = False
+      Position.X = 5.000000000000000000
+      Position.Y = 29.000000000000000000
+      Stroke.Kind = bkNone
+      Width = 120.000000000000000000
+      object TThumb
+        StyleName = 'thumb'
+        Locked = True
+        Height = 16.000000000000000000
+        Position.X = 4.000000000000000000
+        Position.Y = 4.000000000000000000
+        StyleLookup = 'hthumbstyle'
+        TabOrder = 0
+        Width = 51.000000000000000000
+      end
+    end
+    object scrollbarleftbutton: TRectangle
+      StyleName = 'scrollbarleftbutton'
+      Fill.Color = xFF70A83B
+      Height = 18.000000000000000000
+      HitTest = False
+      Position.X = 94.000000000000000000
+      Position.Y = 5.000000000000000000
+      Stroke.Kind = bkNone
+      Width = 19.000000000000000000
+      object TColorAnimation
+        Duration = 0.200000002980232200
+        PropertyName = 'Fill.Color'
+        StartValue = xFF70A83B
+        StopValue = xFF6EE300
+        Trigger = 'IsMouseOver=true'
+        TriggerInverse = 'IsMouseOver=false'
+      end
+    end
+    object scrollbarrightbutton: TRectangle
+      StyleName = 'scrollbarrightbutton'
+      Fill.Color = xFF70A83B
+      Height = 18.000000000000000000
+      HitTest = False
+      Position.X = 117.000000000000000000
+      Position.Y = 5.000000000000000000
+      Stroke.Kind = bkNone
+      Width = 17.000000000000000000
+      object TColorAnimation
+        Duration = 0.200000002980232200
+        PropertyName = 'Fill.Color'
+        StartValue = xFF70A83B
+        StopValue = xFF6EE300
+        Trigger = 'IsMouseOver=true'
+        TriggerInverse = 'IsMouseOver=false'
+      end
+    end
+    object scrollbartopbutton: TRectangle
+      StyleName = 'scrollbartopbutton'
+      Fill.Color = xFF70A83B
+      Height = 19.000000000000000000
+      HitTest = False
+      Position.X = 138.000000000000000000
+      Position.Y = 5.000000000000000000
+      Stroke.Kind = bkNone
+      Width = 16.000000000000000000
+      object TColorAnimation
+        Duration = 0.200000002980232200
+        PropertyName = 'Fill.Color'
+        StartValue = xFF70A83B
+        StopValue = xFF6EE300
+        Trigger = 'IsMouseOver=true'
+        TriggerInverse = 'IsMouseOver=false'
+      end
+    end
+    object scrollbarbottombutton: TRectangle
+      StyleName = 'scrollbarbottombutton'
+      Fill.Color = xFF70A83B
+      Height = 17.000000000000000000
+      HitTest = False
+      Position.X = 72.000000000000000000
+      Position.Y = 5.000000000000000000
+      Stroke.Kind = bkNone
+      Width = 17.000000000000000000
+      object TColorAnimation
+        Duration = 0.200000002980232200
+        PropertyName = 'Fill.Color'
+        StartValue = xFF70A83B
+        StopValue = xFF6EE300
+        Trigger = 'IsMouseOver=true'
+        TriggerInverse = 'IsMouseOver=false'
+      end
+    end
+    object hthumbstyle: TLayout
+      StyleName = 'hthumbstyle'
+      Height = 14.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 5.000000000000000000
+      Width = 61.000000000000000000
+      object background_4: TRectangle
+        StyleName = 'background'
+        Align = alClient
+        Fill.Color = xFF70A83B
+        Locked = True
+        Height = 14.000000000000000000
+        HitTest = False
+        Stroke.Kind = bkNone
+        Width = 61.000000000000000000
+        object TColorAnimation
+          Duration = 0.200000002980232200
+          PropertyName = 'Fill.Color'
+          StartValue = xFF70A83B
+          StopValue = xFF6EE300
+          Trigger = 'IsMouseOver=true'
+          TriggerInverse = 'IsMouseOver=false'
+        end
+      end
+    end
+    object vthumbstyle: TLayout
+      StyleName = 'vthumbstyle'
+      Height = 47.000000000000000000
+      Position.X = 286.000000000000000000
+      Position.Y = 5.000000000000000000
+      Width = 12.000000000000000000
+      object background_3: TRectangle
+        StyleName = 'background'
+        Align = alClient
+        Fill.Color = xFF70A83B
+        Locked = True
+        Height = 47.000000000000000000
+        HitTest = False
+        Stroke.Kind = bkNone
+        Width = 12.000000000000000000
+        object TColorAnimation
+          Duration = 0.300000011920929000
+          PropertyName = 'Fill.Color'
+          StartValue = xFF70A83B
+          StopValue = xFF6EE300
+          Trigger = 'IsMouseOver=true'
+          TriggerInverse = 'IsMouseOver=false'
+        end
+      end
+    end
+    object scrollbarstyle: TLayout
+      StyleName = 'scrollbarstyle'
+      Height = 100.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 54.000000000000000000
+      Width = 100.000000000000000000
+      object TRectangle
+        StyleName = 'background'
+        Align = alContents
+        Fill.Kind = bkNone
+        Locked = True
+        Height = 100.000000000000000000
+        HitTest = False
+        Stroke.Kind = bkNone
+        Width = 100.000000000000000000
+      end
+      object TSpeedButton
+        StyleName = 'leftbutton'
+        Align = alLeft
+        Height = 80.000000000000000000
+        Locked = True
+        Position.Y = 10.000000000000000000
+        StyleLookup = 'scrollbarleftbutton'
+        Width = 10.000000000000000000
+      end
+      object TTrack
+        StyleName = 'htrack'
+        Align = alClient
+        Locked = True
+        Height = 80.000000000000000000
+        Max = 1.000000000000000000
+        Orientation = orHorizontal
+        StyleLookup = 'scrollbarhtrackstyle'
+        TabOrder = 2
+        ViewportSize = 0.100000001490116100
+        Width = 80.000000000000000000
+      end
+      object TSpeedButton
+        StyleName = 'rightbutton'
+        Align = alRight
+        Height = 80.000000000000000000
+        Locked = True
+        Position.X = 90.000000000000000000
+        Position.Y = 10.000000000000000000
+        StyleLookup = 'scrollbarrightbutton'
+        Width = 10.000000000000000000
+      end
+      object TTrack
+        StyleName = 'vtrack'
+        Align = alClient
+        Locked = True
+        Height = 80.000000000000000000
+        Max = 1.000000000000000000
+        Orientation = orHorizontal
+        StyleLookup = 'scrollbarvtrackstyle'
+        TabOrder = 4
+        ViewportSize = 0.100000001490116100
+        Width = 80.000000000000000000
+      end
+      object TSpeedButton
+        StyleName = 'topbutton'
+        Align = alTop
+        Height = 10.000000000000000000
+        Locked = True
+        StyleLookup = 'scrollbartopbutton'
+        Width = 100.000000000000000000
+      end
+      object TSpeedButton
+        StyleName = 'bottombutton'
+        Align = alBottom
+        Height = 10.000000000000000000
+        Locked = True
+        Position.Y = 90.000000000000000000
+        StyleLookup = 'scrollbarbottombutton'
+        Width = 100.000000000000000000
+      end
+    end
+    object smallscrollbarhtrackstyle: TLayout
+      StyleName = 'smallscrollbarhtrackstyle'
+      Height = 19.000000000000000000
+      Position.X = 158.000000000000000000
+      Position.Y = 5.000000000000000000
+      Width = 120.000000000000000000
+      object TRectangle
+        Align = alClient
+        Fill.Kind = bkNone
+        Locked = True
+        Height = 19.000000000000000000
+        HitTest = False
+        Stroke.Kind = bkNone
+        Width = 120.000000000000000000
+      end
+      object TThumb
+        StyleName = 'thumb'
+        Locked = True
+        Height = 16.000000000000000000
+        Position.X = 4.000000000000000000
+        Position.Y = 4.000000000000000000
+        StyleLookup = 'hthumbstyle'
+        TabOrder = 1
+        Width = 51.000000000000000000
+      end
+    end
+    object smallscrollbarvtrackstyle: TLayout
+      StyleName = 'smallscrollbarvtrackstyle'
+      Height = 63.000000000000000000
+      Position.X = 136.000000000000000000
+      Position.Y = 33.000000000000000000
+      Width = 19.000000000000000000
+      object TRectangle
+        Align = alClient
+        Fill.Kind = bkNone
+        Locked = True
+        Height = 63.000000000000000000
+        HitTest = False
+        Stroke.Kind = bkNone
+        Width = 19.000000000000000000
+      end
+      object TThumb
+        StyleName = 'thumb'
+        Locked = True
+        Height = 46.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 5.000000000000000000
+        StyleLookup = 'vthumbstyle'
+        TabOrder = 1
+        Width = 10.000000000000000000
+      end
+    end
+    object smallscrollbarstyle: TLayout
+      StyleName = 'smallscrollbarstyle'
+      Height = 53.000000000000000000
+      Position.X = 162.000000000000000000
+      Position.Y = 29.000000000000000000
+      Width = 111.000000000000000000
+      object TTrack
+        StyleName = 'htrack'
+        Align = alClient
+        Locked = True
+        Height = 53.000000000000000000
+        Max = 1.000000000000000000
+        Orientation = orHorizontal
+        StyleLookup = 'smallscrollbarhtrackstyle'
+        TabOrder = 0
+        ViewportSize = 0.100000001490116100
+        Width = 111.000000000000000000
+      end
+      object TTrack
+        StyleName = 'vtrack'
+        Align = alClient
+        Locked = True
+        Height = 53.000000000000000000
+        Max = 1.000000000000000000
+        Orientation = orHorizontal
+        StyleLookup = 'smallscrollbarvtrackstyle'
+        TabOrder = 1
+        ViewportSize = 0.100000001490116100
+        Width = 111.000000000000000000
+      end
+    end
+  end
+  object general: TLayout
+    StyleName = 'general'
+    Height = 489.000000000000000000
+    Position.Y = 488.000000000000000000
+    Width = 889.000000000000000000
+    object barra_titulo: TLayout
+      StyleName = 'barra_titulo'
+      Height = 46.000000000000000000
+      Position.X = 192.000000000000000000
+      Position.Y = 16.000000000000000000
+      Width = 689.000000000000000000
+      object fondo2: TRectangle
+        StyleName = 'fondo'
+        Align = alContents
+        Fill.Color = xFF2B2B2B
+        Height = 46.000000000000000000
+        HitTest = False
+        Stroke.Color = xFF70A83B
+        Width = 689.000000000000000000
+      end
+      object barra: TLayout
+        StyleName = 'barra'
+        Align = alMostTop
+        Height = 46.000000000000000000
+        Width = 689.000000000000000000
+        object titulos: TLayout
+          StyleName = 'titulos'
+          Align = alClient
+          ClipChildren = True
+          Height = 46.000000000000000000
+          Width = 191.000000000000000000
+          object titulo: TText
+            StyleName = 'titulo'
+            Align = alTop
+            Color = xFF9A999E
+            Font.Style = [fsBold]
+            Height = 25.000000000000000000
+            HitTest = False
+            HorzTextAlign = taLeading
+            Margins.Left = 5.000000000000000000
+            Position.X = 5.000000000000000000
+            Text = 'ANDNode v0.1'
+            Width = 186.000000000000000000
+          end
+          object Layout1: TLayout
+            Align = alClient
+            Height = 21.000000000000000000
+            Width = 191.000000000000000000
+            object archivo: TText
+              StyleName = 'archivo'
+              Align = alMostLeft
+              Color = xFF9A999E
+              Font.Size = 9.000000000000000000
+              Height = 19.000000000000000000
+              HitTest = False
+              HorzTextAlign = taLeading
+              Margins.Left = 5.000000000000000000
+              Margins.Bottom = 2.000000000000000000
+              Position.X = 5.000000000000000000
+              Trimming = ttCharacter
+              VertTextAlign = taTrailing
+              Width = 1.000000000000000000
+            end
+            object asterisco: TText
+              StyleName = 'asterisco'
+              Align = alLeft
+              Color = claRed
+              Font.Size = 9.000000000000000000
+              Height = 19.000000000000000000
+              HitTest = False
+              Margins.Bottom = 2.000000000000000000
+              Position.X = 6.000000000000000000
+              VertTextAlign = taTrailing
+              Width = 10.000000000000000000
+            end
+          end
+        end
+        object sistema: TLayout
+          StyleName = 'sistema'
+          Align = alMostRight
+          Height = 46.000000000000000000
+          Position.X = 608.000000000000000000
+          Width = 81.000000000000000000
+          object cerrar: TButton
+            StyleName = 'cerrar'
+            Align = alRight
+            CanFocus = False
+            Height = 16.000000000000000000
+            Margins.Bottom = 30.000000000000000000
+            Position.X = 56.000000000000000000
+            StyleLookup = 'boton_sistema1'
+            TabOrder = 0
+            Width = 25.000000000000000000
+          end
+          object fijar: TButton
+            StyleName = 'fijar'
+            Align = alRight
+            Height = 16.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 30.000000000000000000
+            Position.X = 1.000000000000000000
+            StyleLookup = 'boton_sistema2'
+            TabOrder = 1
+            Width = 25.000000000000000000
+          end
+          object restaurar: TButton
+            StyleName = 'restaurar'
+            Align = alRight
+            Height = 16.000000000000000000
+            Margins.Bottom = 30.000000000000000000
+            Position.X = 31.000000000000000000
+            StyleLookup = 'boton_sistema2'
+            TabOrder = 2
+            Width = 25.000000000000000000
+          end
+        end
+        object acciones: TLayout
+          StyleName = 'acciones'
+          Align = alRight
+          Height = 46.000000000000000000
+          Position.X = 191.000000000000000000
+          Width = 417.000000000000000000
+          object TLayout
+            Align = alRight
+            Height = 46.000000000000000000
+            Position.X = 250.000000000000000000
+            Width = 15.000000000000000000
+          end
+          object bvigilar: TButton
+            StyleName = 'bvigilar'
+            StaysPressed = True
+            Align = alRight
+            Height = 30.000000000000000000
+            Margins.Top = 8.000000000000000000
+            Margins.Right = 8.000000000000000000
+            Margins.Bottom = 8.000000000000000000
+            Position.X = 303.000000000000000000
+            Position.Y = 8.000000000000000000
+            StyleLookup = 'boton_normal'
+            TabOrder = 6
+            Width = 30.000000000000000000
+            object TImage
+              Align = alContents
+              Bitmap.PNG = {
+                89504E470D0A1A0A0000000D49484452000000140000001408060000008D891D
+                0D000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                032F49444154384FE5D2FB4B93511807F0EF3B97A5792967AE79C9CAD5D4A5A2
+                AED4D5E6DC4533CB8CA2A82810422A21C32E42143502F197208B4AA2B22CBB50
+                1451A9AC5A59A685DDA8D44A9D33E7743AE7A6CD35743BD5785342FD0BFCFC72
+                5E9EF33DCF39F03E987A287A1D2512C9D3F8F1CE2D9C40089D5E360E73C8BDAF
+                BB8BF1F2F36BAAFCC52B75251D9BD47F0D33B364451B739C05BC6802EB20054B
+                3FE0E109B0D804EDDF295C29A64EDDBFABCEA3E31372A35788C5D2F4EC7DE41C
+                2F0A50DD6518AF165307EB9E5225B56A54367F6238E345885C9146122C8605D6
+                AF8DDA5AFAD8E4F20F4B3FBCD54B48E1D9A8919898E4597479D48EDD12754D8B
+                84ECCA97D6D3A509517279CA360693316DCD56E7C5A5628287D7A98E67F7A93C
+                0F2FE258BE5CFC50A9543AFF06150AC5129B8DB06A6A9E54BB4E4EC28DCD5EC0
+                5F918A324132F0D342811D08DF5E1325D6B7BB95979797B6D33968349A9E9090
+                851C5E64A848D3AAFD4297272610C816169E12E95E364BC8FE23D23A2E77E574
+                7A6BD42A9140585119456E3C8A23F2A458195D1EC7F553F4FAB67EFB20B7AAB5
+                91F2282956679A4C2D0ED72E2D238A9719B836F2B16A30141D9D013030D9DBFB
+                FC043E422E67B8BDB5594BC7269694941A4E7FBAC896C5AF5DA4BC4070AC8AEC
+                B9FC8E98F5BF48AF71806CB8564D705C4522720E3D581DBFD89F8E8FCDA14221
+                5D97994DAEF41BE05D7666FA0CD622CFAC8190886C034F9C66F28A40014B8BA2
+                F5029CAEF880F0796C28B8DE882D6DC0471F3ED89F5566B6FEFD23DFEEA6B2D1
+                868989D2B8BDC7C9BBB8D821141D746FBD14743E0CA23F8F1D34037555B016A4
+                C068B620F4C07320D01DE4E44A9CADFE81DC3776203A0E089889B9AADB6383AD
+                D3B575F5E9C2DA82C3B04E9E45FC2C661B86BB4CB03AA6C1318383F9239D902E
+                0D47CB401F3627FEB96BF11C1C7DAA418B5F247C0C8D98DD50D7C3F9FA62EC85
+                FF2424C824C9E9CE7D7CFF1E6167AF63F6376D98E3C1BC9D4C93B72F6EA60661
+                534CB02BB7BFA209271A6C0831BEFDC6ABBD953B6B445B7BE7B5CE36AEE13FD1
+                D18A99010184E56D370D0F39183E6DC189DBBA09334538D78B6FB58ED8EB2DF6
+                FA254E6345C6BDAB254AC035FC5312F01B4B0F3ED6820E3C710000000049454E
+                44AE426082}
+              Height = 24.000000000000000000
+              HitTest = False
+              Margins.Left = 3.000000000000000000
+              Margins.Top = 3.000000000000000000
+              Margins.Right = 3.000000000000000000
+              Margins.Bottom = 3.000000000000000000
+              Width = 24.000000000000000000
+            end
+          end
+          object brefrescar: TButton
+            StyleName = 'brefrescar'
+            Align = alRight
+            Height = 30.000000000000000000
+            Margins.Top = 8.000000000000000000
+            Margins.Right = 8.000000000000000000
+            Margins.Bottom = 8.000000000000000000
+            Position.X = 265.000000000000000000
+            Position.Y = 8.000000000000000000
+            StyleLookup = 'boton_normal'
+            TabOrder = 5
+            Width = 30.000000000000000000
+            object TImage
+              Align = alContents
+              Bitmap.PNG = {
+                89504E470D0A1A0A0000000D49484452000000140000001408060000008D891D
+                0D000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                03AE49444154384FB5946D4C5B5518C79F735B6B2974B4735B80BD6420617389
+                03B3B1DD50BAF6F69639369D4BD518CD32D8868B24D368A266D1251549163F6C
+                8989D1251A403743F661614E7051477B5941A0238301CA429CC4B19600436AB1
+                6F0CEE7DBCB73D169BF6A3FE929373F2BCFCEF39CF79EE81FF1A42E734B66FAF
+                2ACC2B90AA0C46DCAAD142AE2882188D807F760AFB7A7B851F69581A19052B2B
+                F9FADD55F86E71096E5E6504D03C0A801240340C30334560A8072F8F8D923787
+                87DD7E9A92244DB0FA00DF52F396549BBF11805101848289A1AC73572B0321BC
+                40A0B58D2CDF6CC59DB77F1186696A9C14C13D7BF863F5A7A5A6357900B108C0
+                608F14F176A9CF2F2DC204A3C647743AD856C88A87ED1CA333AE05686B8A85BB
+                9B716DBFAF3F4A25FE8D9379CF695B10C638FC7E90C3C6B396F0968DF602EA4C
+                B26953A5F18D772CE3033E0EBBEF72E878D1F61575C561E80C26D34F15C565A8
+                8FC9DF8AC8B5EA73AB4F8DDFEF9CA2EE2493933D819101F5879E6B043A5AA591
+                70086E52571C62B3D9CEA85424BA2E1FCB1CC7D1A1D501DCEA03F47C4B4E6765
+                832118003FC7993F69686890AF2501CFF38FCDCFE3FAA121F708352521EC4EBB
+                E5C9DD9270A8068924A704E701F4B9895D5EF99ADCBB37CE547BBD9D77687C0A
+                6633772E1663CE0C0CB8FEA0A6156AEAACEE762F87EE312BB679E2B569A6AE8C
+                3CFB1C7FFE6A2F87B5AFD96E50533A474F583D1D5E2B1E7A9E6FA1A68C286297
+                6F7028DCB1627B3F87478ED95CD495DA362CBB77B556233674795CAF53530A2C
+                6B295E5F04DFBD50CB94E8F4007F0512BDA952037C715692FC132A6BC63F65C7
+                8EBD5B0D06F181CBB5521BA7D3C90842CFC95C233EBEB808B315FBB0B1DC0464
+                51EE8A6F2E60FBF424737B49249A1441FBD3B6BAA758E9C4BA02A6FCDA253C22
+                08C245EA52506251595457DB5FAD3B257EAECB0198F601347F047C779FE0567C
+                C93E54D0E710D3C1C3A49C7B0661DB2EF27E51915DBEEF2471B1927CCB9A5DBC
+                742E5B3EB2360BE0B74112653492271E21935AC30D6C96F93879E038AACD0ECC
+                01B85D2474D70B172221F2B3249165B5462A2C3543BDC98A06A55FFF94633E6B
+                2427BBBADC9F5289F4C7A1B4B4AA8C7DE9E1AD571C0CA3D32304E60804E54A8A
+                728F2AFDB9CA206F55DEEBACFCCE7CF93173A9E3AAEB659A1A477E4352999999
+                988E4D6F69B93F216E7E18639E50CEA93C5F2A39321202F0FD0EE0ED5EF6B735
+                A93FB8FE83EBED44D60A196FF91F2A2AB8FD791B089B9D83F972A86A69091782
+                73E4579F0F3B474785711AF67F02F037EFE17097D0F74EB50000000049454E44
+                AE426082}
+              Height = 24.000000000000000000
+              HitTest = False
+              Margins.Left = 3.000000000000000000
+              Margins.Top = 3.000000000000000000
+              Margins.Right = 3.000000000000000000
+              Margins.Bottom = 3.000000000000000000
+              Width = 24.000000000000000000
+            end
+          end
+          object bnuevo: TButton
+            StyleName = 'bnuevo'
+            Align = alRight
+            Height = 30.000000000000000000
+            Margins.Top = 8.000000000000000000
+            Margins.Right = 8.000000000000000000
+            Margins.Bottom = 8.000000000000000000
+            Position.X = -31.000000000000000000
+            Position.Y = 8.000000000000000000
+            StyleLookup = 'boton_menu'
+            TabOrder = 0
+            Width = 30.000000000000000000
+            object TImage
+              Align = alContents
+              Bitmap.PNG = {
+                89504E470D0A1A0A0000000D49484452000000140000001408060000008D891D
+                0D000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                038849444154384F85935B4C5C4518C7BF9973A5BBEC22B2D81A352131C45412
+                6B90D0055ADA901860C5D726468B0D89C656D32259AAA949433055A0569246E3
+                256A1FEA25FA60B46C83C456500405BB6D830D5E80FA60635330B6CBE9D93D7B
+                CECC38339E3E1CDC6D7FC9B773F97FF33FDF5C16C14D189A4CBC05189E06C7A2
+                4C2B6DEB6D1A19F3A5A214341C9A4A74F2E698E833804EC4603BCF7C9232F84D
+                F3BC6DCF377FF597D00A11301CFA3E5103848E838A6FE74EC7928DA95DBE0487
+                7F6CAB26048F63800DFC231FF736A41EF3A500D2F0E037CD6AC8088D22402D8C
+                C09CCB48CB81ADA3CB32630D03D38FECC08C7D22078CED49369E7C53F67DD0E0
+                54622757DEE066616EBF3D194F8DFBDA4D199C6A1FE66BF672D323DCB4C79F96
+                86D3BCCCCD942A91FD4D5FAE8AC9D7BE6BDD4C1535966C1839313CDD7107D559
+                BFAAD06A4AE01FE2E0E19E8691099177249D78F99A0DFBFA9A52613116604428
+                3F1600DBBDE6CA190E55943D0C48BFE87B8A7B797161317E7E7669FE97B945FD
+                72E68FF117BEAE7956684B0B17DDD28815B807D56F0330C67812BE3230DBDACE
+                AE9B50EB3CF78587F09F88D1F9CA756ABD560A83B17E561E75BC2716163FBDE4
+                2F931434142004B719CB700A19E5B06BC7330740F705CA835F73DB26E8CBACE4
+                20FDF3469A7EFCC57BC78EFFB02064B9DDB520841871DD0D7BDB479DE525FAA8
+                6D0164B359B02C0B2C3EB0B216504AE1D2DF17A1BE368E87BB3EBA505B13BF4F
+                AC2D6828501465FE95D9AD3D4649FE9D952B2BA2AE00AEEB4259A40CE67FBF00
+                D55BEED10F1F3D74BEBBBBBBA7A8216518639D9EBB7353C9FA8ACA0AFEF47CC1
+                471846A351A8AAAA9295D7D5D5E91D1D1D1B31C158A6C6A032709EAA09D5FB1F
+                983CF5EB586E9FCACF2F70953E62DB866140281402CFF3C0B66DC00AA0B7B996
+                CB1AF6EAC06462CB7FA9AC5C8BE2BCE8A58F3B733A7F6508F367CC6F6A6DF017
+                218D452BC0C9C6910FACC8BA28DFE304C6F0EDC1D1876DBEBCDD54E9AB32C390
+                BF4008B965086379867D359FE5934D27B75140B5E1B0F639FF56A77D15E45FB0
+                B4023BF66A0EF2F9FC2D8310B7E0D148062712B36AECFA43D6D9BBDFEBAA3FDA
+                8543395E01F1D5209AA6C9F39B999979BFE82DF736A7EACC087E77FDFD4A9793
+                737805220A577623C4B68B1A0A76DF75FAA9331F3A89B25809E8BC8AFF872E43
+                5335300D134CD32CBEE51BB4C45B1FEC7FFDA574E6AA95E52FD3F3A70384C321
+                2D935935D3E99F0EFD0B0CA8B0927C97FAEB0000000049454E44AE426082}
+              Height = 24.000000000000000000
+              HitTest = False
+              Margins.Left = 3.000000000000000000
+              Margins.Top = 3.000000000000000000
+              Margins.Right = 3.000000000000000000
+              Margins.Bottom = 3.000000000000000000
+              Width = 24.000000000000000000
+            end
+          end
+          object bConsola: TButton
+            StyleName = 'bConsola'
+            Align = alRight
+            Height = 30.000000000000000000
+            Margins.Top = 8.000000000000000000
+            Margins.Right = 8.000000000000000000
+            Margins.Bottom = 8.000000000000000000
+            Position.X = 136.000000000000000000
+            Position.Y = 8.000000000000000000
+            StyleLookup = 'boton_menu'
+            TabOrder = 4
+            Width = 30.000000000000000000
+            object TImage
+              Align = alContents
+              Bitmap.PNG = {
+                89504E470D0A1A0A0000000D49484452000000140000001408060000008D891D
+                0D000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                01B449444154384FCD933D4F02411086678F8F5B84054D24D01162EC2491562F
+                81183A0321C482560AC1D25899D869E56F20FE080D1A7E0020052D062C284CE8
+                38CC9DE0DDF1E5ECE562CD01854FB2C965776EF69D997761D390ABABEBDB52E9
+                E26E3C1E6BF3F97C62EDDBC289789072F9F11E5AADD660B121DAED7759C00B5C
+                FC96C964B2D6E2381C0E27C966730AAA651E0F052CD93C58054C06A3D1B74A52
+                A994B2581056AFD7211C0E83DFEF87E9746A852D0F17E376BB5592CFE7954422
+                C9745D8746E30D7ABD1E78BD5E2BCC36AAD0E97C82AE1B50289C9B0A07830168
+                9A06B3D90C082156DCF208474787100CEE4226938566B30992740CFBFB7B1008
+                F8FF9A6D0707A55B3795CA8BC85546A351884422986C1B1B3C065996C1E5324D
+                B02C0649264F14FC607C4A866198E5A2A580520AA228DA9DBC2AF03EF1C57F44
+                C383CFE703C698A96C151B71636F14128FC71514C20461BDDCBC1A4CA1925CEE
+                4CA15464DC26EBC005E10C54F2F4F4ACC462076C381C5A47ABC15F58B7FBA192
+                6AB52A4B92B4D3EFF757323287BB22140A41AD56FB22C5E2E55D3A7D7A8B3EFC
+                D175CDFE234644913AD1669E4AE5F5C1DAFAB700FC02BBC81D9E19326E320000
+                000049454E44AE426082}
+              Height = 24.000000000000000000
+              HitTest = False
+              Margins.Left = 3.000000000000000000
+              Margins.Top = 3.000000000000000000
+              Margins.Right = 3.000000000000000000
+              Margins.Bottom = 3.000000000000000000
+              Width = 24.000000000000000000
+            end
+          end
+          object bguardar: TButton
+            StyleName = 'bguardar'
+            Align = alRight
+            Height = 30.000000000000000000
+            Margins.Top = 8.000000000000000000
+            Margins.Right = 8.000000000000000000
+            Margins.Bottom = 8.000000000000000000
+            Position.X = 45.000000000000000000
+            Position.Y = 8.000000000000000000
+            StyleLookup = 'boton_normal'
+            TabOrder = 2
+            Width = 30.000000000000000000
+            object TImage
+              Align = alContents
+              Bitmap.PNG = {
+                89504E470D0A1A0A0000000D49484452000000140000001408060000008D891D
+                0D000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                03F549444154384F7D545D4C5C4514FE66EEDDBBCBEEB250C02E506B054B4D89
+                A22628ED56FC2990B2AC856814FFA2F8427C31696DBB801A638C0F08451F4C8D
+                B589414DF44112AD69778946456359104D6DAD8AAD955640DCC05276BBEE1F7B
+                67AE732F5B22D8E54B267366CE39DF9C3373CE10AC8183C34D3D20A4439735E0
+                810E97EF1343B106AE4AD81BF0DC2F141FEBB2207A9640AB14A6ED009B949874
+                EFBE5ADF84617815AC207CFD5B4F3993D810205DC7015FD9B4B5A5B57580E9BA
+                D702BB37A735F69544C846AE69C73A5CFE16224E321CFF038350D3400E06DC47
+                09A1CD6098260AAF3B503378CEB0580511FD43C2E9A3CCF279AFCBD79D910D90
+                DE4053630CE4A81D300BEA87BD2EFF15E33521FCFA08C87E70FE85F7CEC186CC
+                36484FC0F30D05EE12272DA7AFA7AE49DCB6DF3578465FF706DC8F4123DBC503
+                8539D13EECDAEE1FD7F77B02F7DD4DA17DCD18D9D4557B7C52DFA3225D11D94A
+                30C2FB38E8802E0BB25304F40342528FC742E89434F26BEF705397AED31809E9
+                B3C489A4CF3A447059C0F954DF88BB4190DD92964C455ED797052F37FB148DA3
+                53A46ADC9BDDCAFE511739CC4EC3C34076420AB39A22D38A45428163BEFB95EF
+                3C6D2F8E34D7A425FA5E4291AB74930B53DC2615DB10091B1E06B212B2342BEF
+                BAC73F1E9A4CEEFC79B4A2BD301A7CF786D4E9D152F56C70436CFC89BA6DB859
+                1D1BABAFCC19C7BC6FA4A1D4B96377D94D8D5572C6FF7F20B22978F8B7A6C69F
+                862EAF1BFABCFEEC83CF6CBDB1B2308870CC0498E06D7C5FF6C6230C725045D9
+                2EBC3DEFDC85A920EBCF4E4878281EE1D797DD6A7BEBFC5FE158148F206AC947
+                8C270D7D22258AC222B8250989441C8BF19360C950F694D534DDBCAFE6B3C38A
+                8D0E689AD966B544E1B087916B8B18C3961336864397AD11F1884CBCA3062A18
+                976AED8447F46A069452AB958AF3813D5583AD0B338B0B25450A8A1C0A9CB9A6
+                15A3D861C27ABB9EA806C638E498ABFA69DBC80FF384E248F7B0FB3989D03784
+                B6C5E220CB1D9397A7E0F89959F84FCD20A932A416D310FD8C1C454149A10DF1
+                58024CA3C81515B1DC1D7D632D1B99AA7E2A22BE4DC47EF2C08EC1EA2BCD5FB7
+                F79D4BBC70C3BA52390A9B5986AA1128B28485681CBFFC390B7B5E01AE751641
+                8D04FB970957A367D8E32F28A573ED65C7DAB63D75E4EF2AD7D6E23BEC215C98
+                B98417DAEA6116D19D387D1E7B0FF951525E01BB731312F3D3FDD90B9BE3F7F8
+                82FAE44BA3EEE4FA2DD7E4CB9C22184EE2FB3F42C8B198414D0A244994109545
+                45E8344B3F5956C2CE5ADF9E64DCE4C847F410512F5E8CA4EDE22EEDD8595D81
+                9173B3F871620E13A1182C56AB414EA86867514259535E8DDB1F7D75744B4D75
+                0DD312D1D0DCE5A59F9412E46642228A2537159E7BF35FA2A981BC0AB0CF7900
+                00000049454E44AE426082}
+              Height = 24.000000000000000000
+              HitTest = False
+              Margins.Left = 3.000000000000000000
+              Margins.Top = 3.000000000000000000
+              Margins.Right = 3.000000000000000000
+              Margins.Bottom = 3.000000000000000000
+              Width = 24.000000000000000000
+            end
+          end
+          object bcontrol: TButton
+            StyleName = 'bcontrol'
+            Align = alRight
+            Height = 30.000000000000000000
+            Margins.Top = 8.000000000000000000
+            Margins.Right = 8.000000000000000000
+            Margins.Bottom = 8.000000000000000000
+            Position.X = 98.000000000000000000
+            Position.Y = 8.000000000000000000
+            StyleLookup = 'boton_menu'
+            TabOrder = 3
+            Width = 30.000000000000000000
+            object TImage
+              Align = alContents
+              Bitmap.PNG = {
+                89504E470D0A1A0A0000000D49484452000000140000001408060000008D891D
+                0D000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                044F49444154384FAD545B6C146514FEE6B6B333D39636550B51AA81684BAD5A
+                DA846A42C4107CB2D8901A4325E025365102115E30EA930989E22544137DC458
+                2036983695461F8010DA88156C1BA0D62069D7EDC2B67577BB97EEECEC5CFE99
+                F1CC6C253EF9C4D94CCECCF9F7FF72CEF9BE7370AF8D5BF5D8B1B3A7F78996A6
+                768A48AEEBFB7083A847BF8A5FFD24A337F2953820F082371B8BCD9C3B3B7862
+                3504ECEB7BFB782C1EF7FFCF3C7A1CCFF32DC67CC3B17DDD32439F2AE4FC2BD7
+                AEF97BFBF67F1B6071BB76EF3D38F45DFF97C1C77CE236C6AFFE065555410060
+                AE038193A088B5B06D17BA9D81ED187406388E03CBB2D1D1D18EF6F6A7502A19
+                3870E0F027DCD0F0F0DCAEEEEE0DBF5E9DC0F08F3FA1B9A51951594661A500DF
+                E3905BCEE3F2EF8370BC329A1ED88E8824A358CA8560B95C0E8661A2AFEF4D74
+                BFD885FE8181655E8DD6D504D95D999C24B0263CF4E03AB89E0B5551A108D5B8
+                B1F003B275A390DB26905F730922274389AA5035150D0DF7C334758C8C8C204F
+                09C8AA26F240D90A00354D43555515C62E8DE28B639F221E8B239D4EC35412D8
+                F64223F6BCDE860D5B74DC599A4736B382D81F37B1945C04554FD95A58592942
+                726C870FD923334D3304C82E67B142A5A4D37F538CA18E6D8624FA88569930E7
+                3622BB44A51652281775D07D628183280A20CE1064C6930FCDB24CA4D22938CC
+                A17234022B23A3CFC34CD6838DBD8CA9CFBBF0CB191E8E9081EB32F082008EE7
+                EEEACEF32A42E2ED5540D3B4282B629180AA641165C34026B38C9CB188C21D0E
+                8584044E36E89F3E789E872889E029BBC082A4DC0090E8E789CA3068D90C8BB7
+                E7C01C134F3EFD3CF4420E0BB7E3948588D9F919DC9C9B4235F5D8F75D8214B1
+                A9F559285A3DC928A4E03F80562545535FC652CA80BCF920B67E78149D7D4740
+                3204984525BA74913429702899024C9B43678B034DF15130824C69A208D0A5E4
+                88E50AA09E4FA22CB722B2B6137691616DC733A87BF4397A4F87E741B70220CE
+                15F0DE1B09EC79F5140E6F1FC37ACD42DE8C841906C4F03EECF002F339780649
+                229EC2E5511163435958D93844D2A3AC44115515644A12DA1B73D8D1928295AE
+                C723B53ADA1AA8C7651E8C31F8542DEF4B341664116D1D72C97194A63F43F2E7
+                01242F7C00AF380B8835444604BC1281265988176A70FE2C43EAE22CA6AEDB98
+                98E750AD70D44F1506EF4862219F2F12DE7DAFF4F6E2C6F40CAE8F9F8416E907
+                2FD74290EBA8230B612901A122C964D191F17EB2164D6B4A98CD2828291BF1CE
+                CE6D88466530C3645CD74BBDFB074E9DF84A93A398FEF316CE9DBF100E3E2F90
+                00A8BD0158B02868DF54806971E996487D13101519B66E6941D3A6C75024A17F
+                7CF4D847A1907A7A5F3BFEEE9143871A1F5E1FCEA8E330EA891BCE74C070D070
+                B6EAC36F7A6893119D3E8ABA8E8585459C39FDFDC9C1D3DFECBBBB60BB7A76BF
+                D5DAFA7833F35DC167810002F5072795851A8E6810A5E0BF671C47EB88166C22
+                9E882DFD75EBEBC9C9C94068F7D2807F0013F175F86093CFA40000000049454E
+                44AE426082}
+              Height = 24.000000000000000000
+              HitTest = False
+              Margins.Left = 3.000000000000000000
+              Margins.Top = 3.000000000000000000
+              Margins.Right = 3.000000000000000000
+              Margins.Bottom = 3.000000000000000000
+              Width = 24.000000000000000000
+            end
+          end
+          object babrir: TButton
+            StyleName = 'babrir'
+            Align = alRight
+            Height = 30.000000000000000000
+            Margins.Top = 8.000000000000000000
+            Margins.Right = 8.000000000000000000
+            Margins.Bottom = 8.000000000000000000
+            Position.X = 7.000000000000000000
+            Position.Y = 8.000000000000000000
+            StyleLookup = 'boton_menu'
+            TabOrder = 1
+            Width = 30.000000000000000000
+            object TImage
+              Align = alContents
+              Bitmap.PNG = {
+                89504E470D0A1A0A0000000D49484452000000140000001408060000008D891D
+                0D000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                030F49444154384F9D5249681441147D55DD9D597A22C664A2660812929388CB
+                885B044340824483E85954040F1EF52022A246500F1E4441A244AF82170F9240
+                1082B820712188281A4144221AD4E94CCFD6D35B95BF7B5A8CC488E6D1AF7E75
+                FDAA577F2986BFE0C2E3DE331238ECD9CC51E3387174D3F040E49A137F14BCF0
+                78479F14E2A61AF34C4589F73865BFB9C43194F0DC3C346DF7B1CEE1A7D1D659
+                F84DF0EC836D693DA9DE4D346275D9C0A1236B87AE46AE1014F1C96423EF772A
+                18C9E78B7DFDDDF7BDC8351BA7EE75A9975FF57CEA1FED39162DCD89D3A33D83
+                03EFB78F47BFBF218C30DBD1DDBEAA37717CE53EDEFBE4A2BFF7F3989FEE3AAF
+                EE32DECAAF96293F64F7AB7BAD29B6842F75C7EF9FF26FC4548D6D3AEE5D193B
+                C72E995F602717F205962DEF8C8C8C3C0B05F7ECDC7563F986D401AC30618F36
+                40830A65B301E671C4DA1D141FEA10EF74C8EC34B47AA0FC28056D5D01E2753D
+                12BA02D7F5F166C2B87EEBF6F04135105414C6EA920C32414C11CB008F0332A7
+                C07EA123962D239F99469BD98E6D6B3A505C6141580C3C2BA9471CBE2F716DF0
+                65181C0F86002A3938C9073620DD01A5916A5EA883F2BC09EE640C0B9B55B42E
+                4B22DD18C7E29618D24D713434C4D0D1B600AD19FD97A0EB0BE4A66D7CCB59C8
+                9B0ECC824BF32A72860DB37D0A5F591EE65B0D09AF0EC5721995928D4A8548D6
+                22164C8BD27603292A16219DD1B0259B41154D909DB424286DBD1EACAA403201
+                B6D181BE3E898EE6064CD34552D2738F20A9AFF46621FCDA7F28986989636B67
+                0B8A791F42A534191D70C8C5C9D2C77C4A441330CB55B89E00A772FC02CD4560
+                C3A19672B5EAE37BAE04A3588491ABC0F86EC128D03C4F6B6609B952814A5282
+                E77860148DF4FD59FC89A829C1266FFEF4A87E51CE35418A56FAEEEC8DFF4811
+                D850E8A7A024F5A04BC14DF325BD940051845407CF09439F1F1D129C91B22475
+                E13810AE4D0CECFF90CE046731B3865401E9D2FB22E77FD3B1A95C5570EA7E80
+                50B04E71D19C72B028313FA675070AAF45183EEC898FEEE4D0C302B4B828D91E
+                AF5DF58F88A982FB0E4FBDF9604F02C00F27F96511BFD9CAF10000000049454E
+                44AE426082}
+              Height = 24.000000000000000000
+              HitTest = False
+              Margins.Left = 3.000000000000000000
+              Margins.Top = 3.000000000000000000
+              Margins.Right = 3.000000000000000000
+              Margins.Bottom = 3.000000000000000000
+              Width = 24.000000000000000000
+            end
+          end
+          object TLayout
+            Align = alRight
+            Height = 46.000000000000000000
+            Position.X = 83.000000000000000000
+            Width = 15.000000000000000000
+          end
+          object bIniciar: TButton
+            StyleName = 'bIniciar'
+            Align = alRight
+            Height = 30.000000000000000000
+            Margins.Top = 8.000000000000000000
+            Margins.Right = 8.000000000000000000
+            Margins.Bottom = 8.000000000000000000
+            Position.X = 341.000000000000000000
+            Position.Y = 8.000000000000000000
+            StyleLookup = 'boton_normal'
+            TabOrder = 9
+            Width = 30.000000000000000000
+            object TImage
+              Align = alContents
+              Bitmap.PNG = {
+                89504E470D0A1A0A0000000D49484452000000140000001408060000008D891D
+                0D000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                02BB49444154384FAD925F4853511CC77FF7DEDDED6EE136754BD7D4DA76354D
+                344D1B8DCCA80CF5217A8AA82811FAF350201448851041F447FA07BDF410F552
+                115141D08356BA41546A2596349544AF1168F34F395377B7FBA77BEECE1E06CB
+                A6F5817BCE3DE77CCF871FBF7BA9DD75156F6C5687343434D203FF01EA40C3F2
+                5BD57B67771AF5AEED84C08E8D8E725FF0D992A0D679D28F177B245DEEDA708E
+                63B5B0CF62767AC830FB752CC08DE0CCA2A0B6D4DA4F5B6CB26EEABB06AC7601
+                8A36F26C362BD4A79A5CC544881D0C4C0C8FE26C525095D5B653592E49179A23
+                417D664958E150C41EBEC0EE148F980C4E071571F50526B9497C674154A1DD19
+                15124474737E8684708884ECDC08129764644BC752B4AC551B59F5293035128C
+                A61213278C81C4B20C30A7880581044741040A3DBC3BCD08470D8C6B9986627B
+                262686E7713C8E84C218AA5802980D92EACC968735856EBEC268960FEB895C2A
+                1CCE7C1F0C7E13705C6541610C249624027E4D93405100F9653C53B09EDF66B2
+                90F58C9C27721CD789A3C9096320B1282AE29F24D03A803565919492CA504D4E
+                FECA462692A753C4BEBF5B12A0B4170F00A4622068D028AF4AEDCA1A0DC92229
+                7DA4753264E608AACFF7D83076E364DA89CB0DB57AAFD7DB84324909D107D1D0
+                32646489406B6578FD8C9EB9732EF54CCB4323EB6BF35D0538AB24A2A052FF08
+                125134409A4D043E44C0BB3649E87A917E7DC06F681E1C6C19C7B13888A62BA5
+                41779590F2635C6D810AFA074965996A154112013E7731D0F95C7FB3BF577F69
+                60A095C3B184C4095591D204934554E7FE6E2D74B61AEEFA7BE80B7E7FBB1FDF
+                5910B5874884302BA2F44C1138BF161E5C333EBDD76C763FBAFF6A7FB23204D1
+                78B168BA668F640CCD11C0F5A18A9897BD1DCCF9EE8FED5E9C591CCDB7CBE527
+                1F8AE5430D1BDE96976EDD81B797CEAEBA4D1D55D59B0FE2E53F02F01B097116
+                B6A5FACE3E0000000049454E44AE426082}
+              Height = 24.000000000000000000
+              HitTest = False
+              Margins.Left = 3.000000000000000000
+              Margins.Top = 3.000000000000000000
+              Margins.Right = 3.000000000000000000
+              Margins.Bottom = 3.000000000000000000
+              Width = 24.000000000000000000
+            end
+          end
+          object bParar: TButton
+            StyleName = 'bParar'
+            Align = alRight
+            Height = 30.000000000000000000
+            Margins.Top = 8.000000000000000000
+            Margins.Right = 8.000000000000000000
+            Margins.Bottom = 8.000000000000000000
+            Position.X = 379.000000000000000000
+            Position.Y = 8.000000000000000000
+            StyleLookup = 'boton_normal'
+            TabOrder = 10
+            Width = 30.000000000000000000
+            object TImage
+              Align = alContents
+              Bitmap.PNG = {
+                89504E470D0A1A0A0000000D49484452000000140000001408060000008D891D
+                0D000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                00A749444154384F638C32B3EEF57DF826E9371B0BF35F06F2003310B3FEFAF3
+                77AB9CF002C6E5329AFF239EBC60F8C2C40E912513F0FCFBC9B04A5A82817191
+                9CDAD7C0279FB89E71B241A5C80352DF7F316C94E6FBC6F4F73F2BB93EC5007F
+                1958FF3241D95403A306520E460DA41C8C1A4839606266FC0D2A1FA90298197E
+                3353B5805D0D2A60634CADFABD1FBD4DF8C7C6CCFC8781112A4D1A6066F8CFC0
+                FCEBEFDF6D72424B0009393591D9F86CC10000000049454E44AE426082}
+              Height = 24.000000000000000000
+              HitTest = False
+              Margins.Left = 3.000000000000000000
+              Margins.Top = 3.000000000000000000
+              Margins.Right = 3.000000000000000000
+              Margins.Bottom = 3.000000000000000000
+              Width = 24.000000000000000000
+            end
+          end
+          object bMicro: TButton
+            StyleName = 'bMicro'
+            Align = alRight
+            Height = 30.000000000000000000
+            Margins.Top = 8.000000000000000000
+            Margins.Right = 8.000000000000000000
+            Margins.Bottom = 8.000000000000000000
+            Position.X = 212.000000000000000000
+            Position.Y = 8.000000000000000000
+            StyleLookup = 'boton_normal'
+            TabOrder = 11
+            Width = 30.000000000000000000
+            object TImage
+              Align = alContents
+              Bitmap.PNG = {
+                89504E470D0A1A0A0000000D49484452000000140000001408060000008D891D
+                0D000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                047449444154384F9D547B505455183FF7EE03F619AF541C150181DD0579C933
+                8CF5860D8259CE50610A2B82A334D96043D64C4DFFF550A7CC716ACAD691B505
+                1CA3C661D2188A710610B268118145A0315EE5B4BC965D1EFBBAF79CCEB9DC65
+                58FFECB7B3F79EF3FDBEFB3BE7FBBE733E1153C824EC7B29B24E4AC53E9C9A9A
+                F817FC0FE4E6EA938A4B371B23D47103A0BA36A767D0A745E7AE64CC27C73F1F
+                2DF80440CF30C7F4CFE98F0BD300E8747BB77D7239797690D5A2D7DFCEE913C9
+                409C1571A0A4C8B0122A537106DBB0B6697A7ECC2EF88353EF66B74544C2A2F0
+                4D6C761EB3F5D5DF3AFF3609142F76A4DA61D95FE589F8C9247676DE5295F104
+                D9D95963C67CBF478B3EFE226D4EA3290827F6D2A379C62E5B223A599B633E51
+                936BEAC6E323157975844B49D1877C742973867C73F69B9D8E54EDDE38621791
+                876DEEAF05B23399121A8A2B5C619C97DABF212226E3F0E9C5AA603902F75AE5
+                7F78DD149BF6AC675774229BCA3A13B6671578DF2B796329BAB551E9B8FE5978
+                66DFC3B63FD70409489873A33AB3CB4BE7E5BFE04ADF99EB4DC322004100867A
+                A40F289A023B92BDE96E170D7631EED49844DFC616B3A2E7C6D7217B06867E19
+                1364002DBC79DC1F697B3CD22B19F27901702D53C0E3A200BDB62476C6636273
+                2D5180C53E23FDD261ABF5E72981E611204872565EEBAC74AFD080EC8EA20462
+                1D88CDEBC1A2D8A7ECB4B3DC9F533FF8F5B3B2F6A90F9645B41CFFC059225320
+                3E4C851A01B912810D5B58D0D72E7B4C8B814C7F702501210AC8550888250884
+                3C0D416E913B55218D2D703B636FDA6C13781B180CC3946B32DC95085293CB0B
+                14A4D68519140CC0D4187D974234DC12C3E67BDC028181105E5885684A84B60D
+                59A4D7DAEFB49BF890118D7F88E23896E220A03832F6FF21821C11430842C8C2
+                400EE26FB8D53196E0B5C4E4619F45CD5229AC3A7466F1980FE7C769A7D78AB1
+                712B072EBF1F12C962E1EA0F9D07A6FF59252007802A14E20810B87149D1ED9B
+                A56F123BCF92D8F10DA873CDC747C5E8D8347234161768E05EA6F97C3EE80EEA
+                821CBD14ADF3A5CFDB44606509DB712E592F054CE75466E3C57B0726A727F964
+                0454B9F16A57A5F982BA2E580E8114AF4C72F424888D70C4A7F173757DC3956E
+                8340F10810D4E9F49BE2933C091209E02B1C24437C687E903109919C04891480
+                D8245F9C46531829D03CD60453120AB7BF52631F7CEDADA567BA6E070F7F7B5E
+                5D2F91223E4F38F9B82008F239C38BD47FAA6AE8BC25B71EAA716457D4CE59D7
+                77295E50AB65A24ADF9CB6941CF585B7362A1CB78D61F9DF377696FFF0A5D244
+                44E52A28513C052464774D5F29CC4D0D77CB9AAFA9F35BEA15F662C372E8E133
+                768B5F54B47BF79EEC972B1D1DB80585B598C5CEEB17F0451F5DBD4E037D53CD
+                CAA01D0C2E40BC88469B872D4123C68BBFBE48B8999947AEE991C4EF82959CA1
+                A81CB73EFC5E99D376AC35D8F3573317FC2DE84990E68A0FFF09611A007FEBB3
+                E2067BF29DECFBA270755CF7A3417174C78FF28ADF7BEF0C0A7E0198189BE81D
+                1F1FB708D30090D6E7B66B5A26464551A3FD8A53FF017EF01E6CEAF6B0D40000
+                000049454E44AE426082}
+              Height = 24.000000000000000000
+              HitTest = False
+              Margins.Left = 3.000000000000000000
+              Margins.Top = 3.000000000000000000
+              Margins.Right = 3.000000000000000000
+              Margins.Bottom = 3.000000000000000000
+              Width = 24.000000000000000000
+            end
+          end
+          object bError: TButton
+            StyleName = 'bError'
+            Align = alRight
+            Height = 30.000000000000000000
+            Margins.Top = 8.000000000000000000
+            Margins.Right = 8.000000000000000000
+            Margins.Bottom = 8.000000000000000000
+            Position.X = 174.000000000000000000
+            Position.Y = 8.000000000000000000
+            StyleLookup = 'boton_menu'
+            TabOrder = 12
+            Width = 30.000000000000000000
+            object TImage
+              Align = alContents
+              Bitmap.PNG = {
+                89504E470D0A1A0A0000000D49484452000000140000001408060000008D891D
+                0D000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                03DC49444154384F75545B689B65187EFE3F699AD3DF964266A54DBAD2296B97
+                9665820311265E886337E28DC30B858965B60C44BD9BB6866D78E556073ABBB6
+                BA4D1486CEE9A6ABB20D05871722F490CC59D8D6DA763DA4B55B932E87E5F0F9
+                BC5FD25A4AF792E77FCFCFFFFEDF210636908EAD2D9FBE3833F1F292B2411966
+                295A1443155069E4F17D8DFFECF1D1E8EBA5F0C3A56D5BEBC97F01759F8811F3
+                EB20B165629178A3B9A5BFD4B6B108D95D164E11C370A828CA3684E4265923B5
+                0F25FD9FCC50236CB84D7B9488AC21165B6292137B92B5F76877AC271532F904
+                29B8C1C6EBB4CFD6D4A9DFA8C708798140EC6BA55C94FA6FD64EB067EDA4B6F6
+                A660CFE1BF226D493A8B28E3338BF1ED2104FEFC03895A3FE20397E0431E0E14
+                F00FB3E963DDA8FDAC175397AFC29A99449A3D2673CFCFC742A9AD413FAEBA2A
+                54826F18321CEA26F55775F52AA28AB24C9CEF0AEB4965B2F3EF76AA4431A5AE
+                135FD637E81EE98D53FFEAB494ED05B7F54E4D26E9481A3C2232722187BB5E0B
+                B53B9F849B7EE0995D18999EC532A77EAEFB28BC8C6588E82727507DF1229C0F
+                72FA68D9F915B75C9E657C5DE98BCF907D986F1934CAF51BAFC8349C2C551C46
+                C54B104913DF1D3AA22EB3466AA5477AEFD03E57511D370B3CDA3259C1A0C15F
+                DC74C24FBF2ADC8581B6FD58520A167D014931D07E0015EF1D44BDF8AC951EE9
+                2DD097494D4D26CE0AA460C5CEE7F92C8AF85AE7733A2F1945A2D53EED039CD0
+                D049AD4D13AE7C1AE3F4170F7662777F2FAF9901DE1AC829A8A0BDBBE70496BA
+                C2E011626D4AF7AC4C58E0B87251793349C6A0C90DB9E3E5B27F780C7B0E87E1
+                625236E0E78E0318D8DFCE2302F023B1E7FD4E18DDC7316559ECC9EADE9CA6E2
+                8C17AC6A7DD5AE393C6A90BA2FB059DD28AEBFDE806F8F7CA07E605C702E7C68
+                75A34689BECD8DBA477A27A87FF456295BE5E35BFC4FC41676989C3951EE42F5
+                620CB72FFD84C2DE97103D751A99B7DE449D6187D7B461E9972B98F66D42BAB9
+                09D15DCF22101D46B6DC032B9BE5372A7CF158E3692E23F05ACBF6FEB723D17D
+                49BB1D297B191EA413B8D5B005BEB1713CCAC2A4CB236570A7EE63963AD6D080
+                C6B19B7038BD70E672F0E6B2381A0C9EE98D0EBF6A93C2C1D8EC85644B6BE0A9
+                B9B990AC47C6EDC123B1695E3713498F454AC585E77A3A9C706573F0DD5B40D6
+                538572EEB88B841F05B76932E1D284224324CD9074E7FC7C083C6F71B7170587
+                A3788C641735801C63692E8D874432DDC7CD4D67FA4A6422AB84229AB4B535B0
+                636121E465B1889DFFD0EB61714AEE017A48F6796468954C44AFE17A79A53574
+                F2E9D9B9BDC9B2E2FD5E2BD2E0CEE6F17BCDA66F4E8D0CED2B465704F80FAA58
+                3235CBCEE49E0000000049454E44AE426082}
+              Height = 24.000000000000000000
+              HitTest = False
+              Margins.Left = 3.000000000000000000
+              Margins.Top = 3.000000000000000000
+              Margins.Right = 3.000000000000000000
+              Margins.Bottom = 3.000000000000000000
+              Width = 24.000000000000000000
+            end
+          end
+        end
+      end
+    end
+    object boton_normal: TLayout
+      StyleName = 'boton_normal'
+      Height = 30.000000000000000000
+      Position.X = 8.000000000000000000
+      Position.Y = 14.000000000000000000
+      Width = 30.000000000000000000
+      object fondo: TRectangle
+        StyleName = 'fondo'
+        Align = alContents
+        Fill.Color = xFF515151
+        Height = 30.000000000000000000
+        HitTest = False
+        Stroke.Color = xFF70A83B
+        Width = 30.000000000000000000
+        object move1: TFloatAnimation
+          StyleName = 'move1'
+          Duration = 0.300000011920929000
+          PropertyName = 'Stroke.Thickness'
+          StartValue = 1.000000000000000000
+          StopValue = 2.000000000000000000
+          Trigger = 'IsMouseOver=true'
+          TriggerInverse = 'IsMouseOver=false'
+        end
+        object pres1: TColorAnimation
+          StyleName = 'pres1'
+          Duration = 0.100000001490116100
+          PropertyName = 'Fill.Color'
+          StartValue = xFF515151
+          StopValue = xFF050505
+          Trigger = 'IsPressed=true'
+          TriggerInverse = 'IsPressed=false'
+        end
+        object pres2: TColorAnimation
+          StyleName = 'pres2'
+          Duration = 0.100000001490116100
+          PropertyName = 'Stroke.Color'
+          StartValue = xFF70A83B
+          StopValue = xFF3E5D20
+          Trigger = 'IsPressed=true'
+          TriggerInverse = 'IsPressed=false'
+        end
+        object foco1: TRectAnimation
+          StyleName = 'foco1'
+          Duration = 0.200000002980232200
+          PropertyName = 'Margins'
+          StopValue.Left = -2.000000000000000000
+          StopValue.Top = -2.000000000000000000
+          StopValue.Right = -2.000000000000000000
+          StopValue.Bottom = -2.000000000000000000
+          Trigger = 'IsFocused=true'
+          TriggerInverse = 'IsFocused=false'
+        end
+      end
+    end
+    object boton_sistema1: TLayout
+      StyleName = 'boton_sistema1'
+      Height = 30.000000000000000000
+      Position.X = 44.000000000000000000
+      Position.Y = 14.000000000000000000
+      Width = 30.000000000000000000
+      object fondo3: TRectangle
+        StyleName = 'fondo'
+        Align = alTop
+        Fill.Color = xFFBF0411
+        Height = 5.000000000000000000
+        HitTest = False
+        Stroke.Kind = bkNone
+        Width = 30.000000000000000000
+        object pres1_2: TColorAnimation
+          StyleName = 'pres1'
+          Duration = 0.100000001490116100
+          PropertyName = 'Fill.Color'
+          StartValue = xFFBF0411
+          StopValue = xFF87030C
+          Trigger = 'IsPressed=true'
+          TriggerInverse = 'IsPressed=false'
+        end
+        object mover1_2: TColorAnimation
+          StyleName = 'mover1'
+          Duration = 0.300000011920929000
+          PropertyName = 'Fill.Color'
+          StartValue = xFFBF0411
+          StopValue = xFFEE0616
+          Trigger = 'IsMouseOver=true'
+          TriggerInverse = 'IsMouseOver=false'
+        end
+      end
+    end
+    object boton_sistema2: TLayout
+      StyleName = 'boton_sistema2'
+      Height = 30.000000000000000000
+      Position.X = 84.000000000000000000
+      Position.Y = 14.000000000000000000
+      Width = 30.000000000000000000
+      object fondo_3: TRectangle
+        StyleName = 'fondo'
+        Align = alTop
+        Fill.Color = xFF70A83B
+        Height = 5.000000000000000000
+        HitTest = False
+        Stroke.Color = xFF69757F
+        Width = 30.000000000000000000
+        object pres1_3: TColorAnimation
+          StyleName = 'pres1'
+          Duration = 0.100000001490116100
+          PropertyName = 'Fill.Color'
+          StartValue = xFF70A83B
+          StopValue = xFF55802D
+          Trigger = 'IsPressed=true'
+          TriggerInverse = 'IsPressed=false'
+        end
+        object mover1_3: TColorAnimation
+          StyleName = 'mover1'
+          Duration = 0.300000011920929000
+          PropertyName = 'Fill.Color'
+          StartValue = xFF70A83B
+          StopValue = xFF82C740
+          Trigger = 'IsMouseOver=true'
+          TriggerInverse = 'IsMouseOver=false'
+        end
+      end
+    end
+    object listbox_consola: TLayout
+      StyleName = 'listbox_consola'
+      Height = 150.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 78.000000000000000000
+      Width = 150.000000000000000000
+      object background_2: TRectangle
+        StyleName = 'background'
+        Align = alContents
+        Fill.Kind = bkNone
+        Height = 150.000000000000000000
+        HitTest = False
+        Stroke.Kind = bkNone
+        Width = 150.000000000000000000
+        object TLayout
+          Align = alClient
+          Height = 142.000000000000000000
+          Width = 142.000000000000000000
+          object vsmallscrollbar_2: TSmallScrollBar
+            StyleName = 'vsmallscrollbar'
+            Align = alRight
+            Height = 8.000000000000000000
+            SmallChange = 0.000000000000000000
+            Orientation = orVertical
+            Margins.LeftI = 2
+            Visible = False
+            Width = 8.000000000000000000
+          end
+          object SmallScrollBar2: TSmallScrollBar
+            StyleName = 'hsmallscrollbar'
+            Align = alBottom
+            Height = 8.000000000000000000
+            SmallChange = 0.000000000000000000
+            Orientation = orHorizontal
+            Margins.TopI = 2
+            Visible = False
+            Width = 150.000000000000000000
+          end
+        end
+        object content_2: TLayout
+          StyleName = 'content'
+          Align = alClient
+          ClipChildren = True
+          Height = 142.000000000000000000
+          Width = 142.000000000000000000
+          object selection_2: TRectangle
+            StyleName = 'selection'
+            Fill.Color = xFF5E5E5E
+            Height = 50.000000000000000000
+            HitTest = False
+            Position.Y = 56.000000000000000000
+            Stroke.Kind = bkNone
+            Width = 50.000000000000000000
+          end
+        end
+        object footer_2: TLayout
+          StyleName = 'footer'
+          Align = alBottom
+          Height = 50.000000000000000000
+          Visible = False
+          Width = 50.000000000000000000
+        end
+        object header_2: TLayout
+          StyleName = 'header'
+          Align = alTop
+          Height = 50.000000000000000000
+          Visible = False
+          Width = 50.000000000000000000
+        end
+        object hscrollbar_2: TScrollBar
+          StyleName = 'hscrollbar'
+          Align = alBottom
+          Height = 8.000000000000000000
+          SmallChange = 0.000000000000000000
+          Orientation = orHorizontal
+          Position.Y = 142.000000000000000000
+          StyleLookup = 'ScrollBarStyle_consola'
+          Width = 150.000000000000000000
+        end
+        object vscrollbar_2: TScrollBar
+          StyleName = 'vscrollbar'
+          Align = alRight
+          Height = 142.000000000000000000
+          SmallChange = 0.000000000000000000
+          Orientation = orVertical
+          Position.X = 142.000000000000000000
+          StyleLookup = 'ScrollBarStyle_consola'
+          Width = 8.000000000000000000
+        end
+      end
+      object AlternatingRowBackground_2: TBrushObject
+        StyleName = 'AlternatingRowBackground'
+        Brush.Color = xFF2B2B2B
+        Left = 64
+        Top = 648
+      end
+    end
+    object ScrollBarStyle_consola: TLayout
+      StyleName = 'ScrollBarStyle_consola'
+      Height = 100.000000000000000000
+      Position.X = 175.000000000000000000
+      Position.Y = 78.000000000000000000
+      Width = 100.000000000000000000
+      object TButton
+        StyleName = 'leftbutton'
+        Align = alLeft
+        Height = 100.000000000000000000
+        Locked = True
+        StyleLookup = 'scrollbarleftbutton'
+        TabOrder = 0
+        Width = 0.000000000000000000
+      end
+      object TButton
+        StyleName = 'rightbutton'
+        Align = alRight
+        Height = 100.000000000000000000
+        Locked = True
+        Position.X = 100.000000000000000000
+        StyleLookup = 'scrollbarrightbutton'
+        TabOrder = 1
+        Width = 0.000000000000000000
+      end
+      object TButton
+        StyleName = 'topbutton'
+        Align = alTop
+        Height = 0.000000000000000000
+        Locked = True
+        StyleLookup = 'scrollbartopbutton'
+        TabOrder = 2
+        Width = 100.000000000000000000
+      end
+      object TButton
+        StyleName = 'bottombutton'
+        Align = alBottom
+        Height = 0.000000000000000000
+        Locked = True
+        Position.Y = 100.000000000000000000
+        StyleLookup = 'scrollbarbottombutton'
+        TabOrder = 3
+        Width = 100.000000000000000000
+      end
+      object TTrack
+        StyleName = 'htrack'
+        Align = alClient
+        Locked = True
+        Height = 100.000000000000000000
+        Orientation = orHorizontal
+        StyleLookup = 'scrollbarhtrackstyle'
+        TabOrder = 4
+        Width = 100.000000000000000000
+      end
+      object TTrack
+        StyleName = 'vtrack'
+        Align = alClient
+        Locked = True
+        Height = 100.000000000000000000
+        Orientation = orHorizontal
+        StyleLookup = 'scrollbarvtrackstyle'
+        TabOrder = 5
+        Width = 100.000000000000000000
+      end
+    end
+    object ListBoxItem_consola: TLayout
+      StyleName = 'ListBoxItem_consola'
+      Height = 50.000000000000000000
+      Position.X = 156.000000000000000000
+      Position.Y = 180.000000000000000000
+      Width = 208.000000000000000000
+      object Text1: TText
+        StyleName = 'text'
+        Align = alLeft
+        Color = xFF70A83B
+        Height = 50.000000000000000000
+        HitTest = False
+        HorzTextAlign = taLeading
+        Width = 89.000000000000000000
+        WordWrap = False
+        object TColorAnimation
+          Duration = 0.000200000009499490
+          PropertyName = 'Color'
+          StartValue = xFF70A83B
+          StopValue = xFF70A83B
+          Trigger = 'IsSelected=true'
+          TriggerInverse = 'IsSelected=false'
+        end
+      end
+      object edit: TEdit
+        StyleName = 'edit'
+        Align = alClient
+        StyleLookup = 'editstyle_consola'
+        TabOrder = 1
+        Width = 119.000000000000000000
+        Height = 50.000000000000000000
+        KillFocusByReturn = False
+      end
+    end
+    object editstyle_consola: TLayout
+      StyleName = 'editstyle_consola'
+      Height = 50.000000000000000000
+      Position.X = 369.000000000000000000
+      Position.Y = 179.000000000000000000
+      Width = 119.000000000000000000
+      object background_5: TRectangle
+        StyleName = 'background'
+        Align = alContents
+        Fill.Kind = bkNone
+        Height = 50.000000000000000000
+        HitTest = False
+        Stroke.Kind = bkNone
+        Width = 119.000000000000000000
+      end
+      object content_3: TLayout
+        StyleName = 'content'
+        Align = alClient
+        Locked = True
+        Height = 46.000000000000000000
+        Margins.LeftI = 2
+        Margins.RightI = 2
+        Margins.TopI = 2
+        Margins.BottomI = 2
+        Width = 115.000000000000000000
+      end
+      object foreground_3: TBrushObject
+        StyleName = 'foreground'
+        Brush.Color = xFF70A83B
+        Left = 304
+        Top = 568
+      end
+      object selection_3: TBrushObject
+        StyleName = 'selection'
+        Brush.Color = x1F000000
+        Left = 416
+        Top = 568
+      end
+      object font_3: TFontObject
+        StyleName = 'font'
+        Left = 352
+        Top = 568
+      end
+    end
+    object Menu_Nuevo: TLayout
+      StyleName = 'Menu_Nuevo'
+      Height = 237.000000000000000000
+      Position.X = 16.000000000000000000
+      Position.Y = 248.000000000000000000
+      Width = 345.000000000000000000
+      object lArchivo: TLayout
+        Align = alTop
+        Height = 30.000000000000000000
+        Margins.Left = 8.000000000000000000
+        Margins.Right = 8.000000000000000000
+        Margins.Bottom = 8.000000000000000000
+        Position.X = 8.000000000000000000
+        Position.Y = 46.000000000000000000
+        Width = 329.000000000000000000
+        object barchivo_2: TButton
+          StyleName = 'barchivo'
+          Align = alRight
+          Height = 30.000000000000000000
+          Margins.Left = 8.000000000000000000
+          Position.X = 299.000000000000000000
+          StyleLookup = 'boton_normal'
+          TabOrder = 0
+          Width = 30.000000000000000000
+          object TImage
+            Align = alClient
+            Bitmap.PNG = {
+              89504E470D0A1A0A0000000D49484452000000140000001408060000008D891D
+              0D000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              038749444154384F85935D4C5C4514C7CFCCFD6477BB8BE8D6D6A8098921A692
+              B40D12BA80A50D8901567C6D62B4D890D468DBB448966A6AA20453056A256934
+              7E44ED43FD883E182BDB20692B288282AE6D6843AB407DB0B1118DBA5CEEEEDD
+              7B67C699F1F6E1E26EFB4BCECEC739F3BF67CE994570030627926F008627C0B1
+              29D3C2AD3D8DC3A3BEAB2445050727931D7C382EE60CA00331D8CE231FA70C7E
+              D23C6FDBD34D5FFC267CC508080E7E93AC0642C740C5B772A5E3A986F42EDF05
+              47BE6BAD22048F6180F5FC231FF6D4A71FF15D01A4E0F35F36A961233C820035
+              3302B32E23CD87B68E2CC98855F44F3DB40333F6915C30B627D570EA7539F741
+              0393C99DDCF31A178B70F9EDA9447ACCF7DD9081C9B6217E663F173DCA45BBFD
+              6D2938C5D3DC42A9123DD87872596CBEF275CB16AAA8F154FDF0E74353EDB753
+              9DF5A90AADA204FE220E1EEAAE1F1E17714733C917B3361C78A1311D116B0146
+              84F2B200D8EE3FAEDCE15045D9C380F489B9A7B8D716E61712E76716E72ECD2E
+              E8D7B2BF8C3D73BA7AAFF02DCE5F7123512BD007D51F0330C67810FEBD7FA6A5
+              8DAD9850E3ECFBCC43F857C4E8DCDA905AA7AD8181781FAB8839DE63F30B1F5F
+              F58F498A0A0A10825B8C2538838C0AD8B5E3C943A0FB0ECA8DB7B97513F466FF
+              C843E6C2069A79F4D97B464F7C3B2FDCF2BAAB410831E2BAEBF7B78D384B8BF4
+              61DB02C8E572605916587C61E52CA094C2D53FAF405D4D020FEDFEE0624D75E2
+              5E71B6A8A0405194B99766B6761B6585B76CCB167905705D17CAA3E530F7F345
+              A8AABF5B3F72ECF0F9AEAEAEEE928294618C757AEE8E4D65EB4291107F7ABEC3
+              4708C66231A8ACAC9499D7D6D6EAEDEDED1B30C15886C6616DA09EAA09550737
+              4E9CB93C9A3FA0F2FA055AE923AE6D180684C361F03C0F6CDB06AC007A93FBF2
+              39C35EEE9F483EF05F28ABD062B820669913CEACCE5F19C2FC19F34EAD36FE22
+              A4B0180538D530FC9E150DC5F81DC73186AF7A4F3F68F3E36DA64A5F961186FC
+              0542C84D4D08CB1AF6567F5248359EDA4601D5844CED53FEAD0EFB6F907FC135
+              B761C75ECE43A150B8A911E2162D8D64603C39A3C657EEB77EBCEB9DCEBA639D
+              389CE71910DF1B44D33459BFE9E9E9774B76B9A7295D6B46F1DBEBEE533A9DBC
+              C33310563CB3EB26AE5D5250F0D49D6777FFF0BE932C8F9781CEB3F8BFE9D234
+              5503D330C134CDD257BE4E73A26573DFABCF65ACEC4A8E37CBF3B7034422612D
+              9B5D363399EF0FFF0B14F2B091528A468E0000000049454E44AE426082}
+            Height = 30.000000000000000000
+            HitTest = False
+            Width = 30.000000000000000000
+          end
+        end
+        object earchivo_2: TEdit
+          StyleName = 'earchivo'
+          Align = alClient
+          StyleLookup = 'editstyle_normal'
+          TabOrder = 1
+          Font.Size = 14.000000000000000000
+          Width = 291.000000000000000000
+          Height = 30.000000000000000000
+          StyledSettings = [ssFamily, ssStyle, ssFontColor]
+          KillFocusByReturn = False
+        end
+      end
+      object lCarpeta: TLayout
+        Align = alTop
+        Height = 30.000000000000000000
+        Margins.Left = 8.000000000000000000
+        Margins.Top = 8.000000000000000000
+        Margins.Right = 8.000000000000000000
+        Margins.Bottom = 8.000000000000000000
+        Position.X = 8.000000000000000000
+        Position.Y = 8.000000000000000000
+        Width = 329.000000000000000000
+        object bcarpeta_2: TButton
+          StyleName = 'bcarpeta'
+          Align = alRight
+          Height = 30.000000000000000000
+          Margins.Left = 8.000000000000000000
+          Position.X = 299.000000000000000000
+          StyleLookup = 'boton_normal'
+          TabOrder = 0
+          Width = 30.000000000000000000
+          object TImage
+            Align = alClient
+            Bitmap.PNG = {
+              89504E470D0A1A0A0000000D49484452000000140000001408060000008D891D
+              0D000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              030F49444154384F9D5249681441147D55DD9D597A22C664A2660812929388CB
+              885B044340824483E85954040F1EF52022A246500F1E4441A244AF82170F9240
+              1082B820712188281A4144221AD4E94CCFD6D35B95BF7B5A8CC488E6D1AF7E75
+              FDAA577F2986BFE0C2E3DE331238ECD9CC51E3387174D3F040E49A137F14BCF0
+              78479F14E2A61AF34C4589F73865BFD9E618523D370F4DDB7DAC73F869B47516
+              7E133CFB605B5A4FAA77138D585D3670E8C8DAA1AB912B04457C32D9C8FB9D0A
+              46F2F9625F7FF77D2F72CDC6A97B5DEAE5573D9FFA477B8E454B73E2F468CFE0
+              C0FBEDE3D1EF6F0823CC7674B7AFEA4D1C5FB98FF73EB9E8EFFD3CE6A7BBCEAB
+              BB8CB7F2AB65CA0FD9FDEA5E6B8A2DE14BDDF1FBA7FC1B3155639B8E7B57C6CE
+              B14BE617D8C9857C8165CB3B232323CF42C13D3B77DD58BE2175002B4CD8A30D
+              D0A042D96C80791CB17607C5873AC43B1D323B0DAD1E283F4A415B5780785D8F
+              84AEC0757DBC9930AEDFBA3D7C500D041585B1BA24834C1053C432C0E380CC29
+              B05FE88865CBC867A6D166B663DB9A0E145758101603CF4AEA1187EF4B5C1B7C
+              1906C78321804A0E4EF2810D48774069A49A17EAA03C6F823B19C3C26615ADCB
+              924837C6B1B8258674531C0D0D3174B42D406B46FF25E8FA02B9691BDF7216F2
+              A603B3E0D2BC8A9C61C36C9FC2579687F95643C2AB43B15C46A564A3522192B5
+              8805D3A2B4DD408A8A454867346CC96650451364272D094A5BAF07AB2A904C80
+              6D74A0AF4FA2A3B901D3749194F4DC2348EA2BBD5908BFF61F0A665AE2D8DAD9
+              8262DE8750294D46071C7271B2F4319F12D104CC7215AE27C0A91CBF407311D8
+              70A8A55CADFAF89E2BC1281661E42A30BE5B300A34CFD39A5942AE54A09294E0
+              391E1845237D7F167F226A4AB0C99B3F3DAA5F94734D90A295BE3B7BE33F5204
+              3614FA2928493DE85270D37C492F25401421D5C173C2D0E747870467A42C495D
+              380E846B1303FB3FA433C159CCAC215540BAF4BEC8F9DF746C2A57159CBA1F20
+              14AC535C34A71C2C4ACC8F69DD81C26B11860F7BE2A33B39F4B0002D2E4AB6C7
+              6B57FD2362AAE0BEC3536F3ED89300F003280D651132271AF40000000049454E
+              44AE426082}
+            Height = 30.000000000000000000
+            HitTest = False
+            Width = 30.000000000000000000
+          end
+        end
+        object ecarpeta_2: TEdit
+          StyleName = 'ecarpeta'
+          Align = alClient
+          StyleLookup = 'editstyle_normal'
+          TabOrder = 1
+          Font.Size = 14.000000000000000000
+          Width = 291.000000000000000000
+          Height = 30.000000000000000000
+          StyledSettings = [ssFamily, ssStyle, ssFontColor]
+          KillFocusByReturn = False
+        end
+      end
+      object Layout2: TLayout
+        Align = alTop
+        Height = 30.000000000000000000
+        Margins.Left = 8.000000000000000000
+        Margins.Right = 8.000000000000000000
+        Margins.Bottom = 8.000000000000000000
+        Position.X = 8.000000000000000000
+        Position.Y = 84.000000000000000000
+        Width = 329.000000000000000000
+        object cRChrome: TCheckBox
+          StyleName = 'cRChrome'
+          Height = 19.000000000000000000
+          Position.Y = 5.000000000000000000
+          TabOrder = 0
+          Text = 'Refrescar Google Chrome'
+          Width = 153.000000000000000000
+        end
+      end
+      object Layout3: TLayout
+        Align = alTop
+        Height = 30.000000000000000000
+        Margins.Left = 8.000000000000000000
+        Margins.Right = 8.000000000000000000
+        Margins.Bottom = 8.000000000000000000
+        Position.X = 8.000000000000000000
+        Position.Y = 198.000000000000000000
+        Width = 329.000000000000000000
+        object cRIExplorer: TCheckBox
+          StyleName = 'cRIExplorer'
+          Height = 19.000000000000000000
+          Position.Y = 5.000000000000000000
+          TabOrder = 0
+          Text = 'Refrescar Windows Internet Explorer'
+          Width = 153.000000000000000000
+        end
+      end
+      object Layout4: TLayout
+        Align = alTop
+        Height = 30.000000000000000000
+        Margins.Left = 8.000000000000000000
+        Margins.Right = 8.000000000000000000
+        Margins.Bottom = 8.000000000000000000
+        Position.X = 8.000000000000000000
+        Position.Y = 160.000000000000000000
+        Width = 329.000000000000000000
+        object cROpera: TCheckBox
+          StyleName = 'cROpera'
+          Height = 19.000000000000000000
+          Position.Y = 5.000000000000000000
+          TabOrder = 0
+          Text = 'Refrescar Opera'
+          Width = 153.000000000000000000
+        end
+      end
+      object Layout5: TLayout
+        Align = alTop
+        Height = 30.000000000000000000
+        Margins.Left = 8.000000000000000000
+        Margins.Right = 8.000000000000000000
+        Margins.Bottom = 8.000000000000000000
+        Position.X = 8.000000000000000000
+        Position.Y = 122.000000000000000000
+        Width = 329.000000000000000000
+        object cRMozilla: TCheckBox
+          StyleName = 'cRMozilla'
+          Height = 19.000000000000000000
+          Position.Y = 5.000000000000000000
+          TabOrder = 0
+          Text = 'Refrescar Mozilla Firefox'
+          Width = 153.000000000000000000
+        end
+      end
+    end
+    object editstyle_normal: TLayout
+      StyleName = 'editstyle_normal'
+      Height = 50.000000000000000000
+      Position.X = 494.000000000000000000
+      Position.Y = 179.000000000000000000
+      Width = 119.000000000000000000
+      object background_6: TRectangle
+        StyleName = 'background'
+        Align = alContents
+        Fill.Color = xFF9A999E
+        Height = 50.000000000000000000
+        HitTest = False
+        Stroke.Color = xFF70A83B
+        Stroke.Thickness = 1.500000000000000000
+        Width = 119.000000000000000000
+      end
+      object content_6: TLayout
+        StyleName = 'content'
+        Align = alClient
+        Locked = True
+        Height = 42.000000000000000000
+        Margins.LeftI = 4
+        Margins.RightI = 4
+        Margins.TopI = 4
+        Margins.BottomI = 4
+        Width = 111.000000000000000000
+      end
+      object foreground_6: TBrushObject
+        StyleName = 'foreground'
+        Brush.Color = claBlack
+        Left = 520
+        Top = 616
+      end
+      object selection_6: TBrushObject
+        StyleName = 'selection'
+        Brush.Color = x7184F716
+        Left = 624
+        Top = 616
+      end
+      object font_6: TFontObject
+        StyleName = 'font'
+        Left = 576
+        Top = 616
+      end
+    end
+    object Menu_Abrir: TLayout
+      StyleName = 'Menu_Abrir'
+      Height = 46.000000000000000000
+      Position.X = 368.000000000000000000
+      Position.Y = 248.000000000000000000
+      Width = 345.000000000000000000
+      object Edit1: TEdit
+        StyleName = 'edit'
+        Align = alClient
+        StyleLookup = 'editstyle_normal'
+        TabOrder = 0
+        Font.Size = 14.000000000000000000
+        Width = 291.000000000000000000
+        Height = 30.000000000000000000
+        Margins.Left = 8.000000000000000000
+        Margins.Top = 8.000000000000000000
+        Margins.Bottom = 8.000000000000000000
+        StyledSettings = [ssFamily, ssStyle, ssFontColor]
+        KillFocusByReturn = False
+      end
+      object Button1: TButton
+        StyleName = 'boton'
+        Align = alRight
+        Height = 30.000000000000000000
+        Margins.Left = 8.000000000000000000
+        Margins.Top = 8.000000000000000000
+        Margins.Right = 8.000000000000000000
+        Margins.Bottom = 8.000000000000000000
+        Position.X = 307.000000000000000000
+        Position.Y = 8.000000000000000000
+        StyleLookup = 'boton_normal'
+        TabOrder = 1
+        Width = 30.000000000000000000
+        object TImage
+          Align = alClient
+          Bitmap.PNG = {
+            89504E470D0A1A0A0000000D49484452000000140000001408060000008D891D
+            0D000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            030F49444154384F9D5249681441147D55DD9D597A22C664A2660812929388CB
+            885B044340824483E85954040F1EF52022A246500F1E4441A244AF82170F9240
+            1082B820712188281A4144221AD4E94CCFD6D35B95BF7B5A8CC488E6D1AF7E75
+            FDAA577F2986BFE0C2E3DE331238ECD9CC51E3387174D3F040E49A137F14BCF0
+            78479F14E2A61AF34C4589F73865BFB9CA31A4796E1E9AB6FB58E7F0D368EB2C
+            FC2678F6C1B6B49E54EF261AB1BA6CE0D091B543572357088AF864B291F73B15
+            8CE4F3C5BEFEEEFB5EE49A8D53F7BAD4CBAF7A3EF58FF61C8B96E6C4E9D19EC1
+            81F7DBC7A3DFDF104698EDE86E5FD59B38BE721FEF7D72D1DFFB79CC4F779D57
+            77196FE557CB941FB2FBD5BDD6145BC297BAE3F74FF93762AAC6361DF7AE8C9D
+            6397CC2FB0930BF902CB96774646469E85827B76EEBAB17C43EA005698B0471B
+            A04185B2D900F33862ED0E8A0F7588773A64761A5A3D507E9482B6AE00F1BA1E
+            095D81EBFA7833615CBF757BF8A01A082A0A637549069920A6886580C7019953
+            60BFD011CB9691CF4CA3CD6CC7B6351D28AEB0202C069E95D4230EDF97B836F8
+            320C8E074300951C9CE4031B90EE80D248352FD44179DE0477328685CD2A5A97
+            25916E8C63714B0CE9A6381A1A62E8685B80D68CFE4BD0F50572D336BEE52CE4
+            4D0766C1A5791539C386D93E85AF2C0FF3AD8684578762B98C4AC946A542246B
+            110BA64569BB8114158B90CE68D892CDA08A26C84E5A1294B65E0F5655209900
+            DBE8405F9F44477303A6E92229E9B94790D4577AB3107EED3F14CCB4C4B1B5B3
+            05C5BC0FA1529A8C0E38E4E264E9633E25A20998E52A5C4F8053397E81E622B0
+            E1504BB95AF5F13D5782512CC2C855607CB76014689EA735B3845CA9402529C1
+            733C308A46FAFE2CFE44D4946093377F7A54BF28E79A20452B7D77F6C67FA408
+            6C28F45350927AD0A5E0A6F9925E4A802842AA83E784A1CF8F0E09CE485992BA
+            701C08D72606F67F486782B3985943AA8074E97D91F3BFE9D854AE2A38753F40
+            2858A7B8684E395894981FD3BA0385D7220C1FF6C4477772E861015A5C946C8F
+            D7AEFA47C454C17D87A7DE7CB02701E00728096511B79AEC1D0000000049454E
+            44AE426082}
+          Height = 30.000000000000000000
+          HitTest = False
+          Width = 30.000000000000000000
+        end
+      end
+    end
+    object boton_menu: TLayout
+      StyleName = 'boton_menu'
+      Height = 30.000000000000000000
+      Position.X = 8.000000000000000000
+      Position.Y = 46.000000000000000000
+      Width = 30.000000000000000000
+      object Rectangle1: TRectangle
+        StyleName = 'fondo'
+        Align = alContents
+        Fill.Color = xFF515151
+        Height = 30.000000000000000000
+        HitTest = False
+        Stroke.Color = xFF70A83B
+        Width = 30.000000000000000000
+        object FloatAnimation1: TFloatAnimation
+          StyleName = 'move1'
+          Duration = 0.300000011920929000
+          PropertyName = 'Stroke.Thickness'
+          StartValue = 1.000000000000000000
+          StopValue = 2.000000000000000000
+          Trigger = 'IsMouseOver=true'
+          TriggerInverse = 'IsMouseOver=false'
+        end
+        object ColorAnimation1: TColorAnimation
+          StyleName = 'pres1'
+          Duration = 0.100000001490116100
+          PropertyName = 'Fill.Color'
+          StartValue = xFF515151
+          StopValue = xFF050505
+          Trigger = 'IsPressed=true'
+          TriggerInverse = 'IsPressed=false'
+        end
+        object ColorAnimation2: TColorAnimation
+          StyleName = 'pres2'
+          Duration = 0.100000001490116100
+          PropertyName = 'Stroke.Color'
+          StartValue = xFF70A83B
+          StopValue = xFF3E5D20
+          Trigger = 'IsPressed=true'
+          TriggerInverse = 'IsPressed=false'
+        end
+        object RectAnimation1: TRectAnimation
+          StyleName = 'foco1'
+          Duration = 0.200000002980232200
+          PropertyName = 'Margins'
+          StopValue.Left = -2.000000000000000000
+          StopValue.Top = -2.000000000000000000
+          StopValue.Right = -2.000000000000000000
+          StopValue.Bottom = -2.000000000000000000
+          Trigger = 'IsFocused=true'
+          TriggerInverse = 'IsFocused=false'
+        end
+      end
+      object Rectangle2: TRectangle
+        Align = alBottom
+        Fill.Color = xFF70A83B
+        Height = 3.000000000000000000
+        HitTest = False
+        Position.Y = 27.000000000000000000
+        Stroke.Kind = bkNone
+        Width = 30.000000000000000000
+      end
+    end
+    object Menu_Control: TLayout
+      StyleName = 'Menu_Control'
+      Height = 46.000000000000000000
+      Position.X = 368.000000000000000000
+      Position.Y = 304.000000000000000000
+      Width = 345.000000000000000000
+      object bAsociar: TButton
+        StyleName = 'bAsociar'
+        Align = alLeft
+        Height = 30.000000000000000000
+        Margins.Top = 8.000000000000000000
+        Margins.Right = 8.000000000000000000
+        Margins.Bottom = 8.000000000000000000
+        Position.X = 8.000000000000000000
+        Position.Y = 8.000000000000000000
+        StyleLookup = 'boton_normal'
+        TabOrder = 0
+        Width = 30.000000000000000000
+        object TImage
+          Align = alClient
+          Bitmap.PNG = {
+            89504E470D0A1A0A0000000D49484452000000140000001408060000008D891D
+            0D000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            03D649444154384FA5945D4C5B6518C7FFE7B33D3D3DD02F28E563C0BAC5916D
+            502A336311165CA6D3A9CCC5A0319B46255E7833BD32C6E8CDD4A85914A3C668
+            162F66B60BBDD882C60BB75460288905E2C489CE04E8BAC10AB4A51FB43D1F3D
+            F53DE4884160D1F84B9EE4E4799FF79FFFF3BCEF7BA8BEBE77DFF76FDDF6945D
+            920445960B144581E3B8B2D077A1A193275FDF8FFF08F3F4B3CFF4343436EEB5
+            F2168660E179DEA2EB3A82ADC17A8E65B7FE180E5F306BFF15CC91EEEE6E94D0
+            4AC4E07038603814040136123B9A9A5A64599BE7CA32B140707B97ABDCAFDFBC
+            1949987B3784A6690656AB15E58E7254782AE076BBE1F178404680DCB28CFA06
+            F71BD50DFA17F79F885DE8FD60FA5A4F6FF08CB9774368C3196913C425F2853C
+            645946512B62767616CBB9341E3C7C94EBFF7CBAFDFC9B95477941C7F1776E1C
+            7FB8A7ED2D73FF3AE84C268378228EE45212B1580C8B8B8B88DE88229148A0B9
+            B919A24DA28CC2D0C5F0F9FE53DE0F4195B0EFF1E44B2DF5FB1D2B0AFF805655
+            15D94C16997406D96C16A9546AC5652010C0F8D81886BF1F364B81E909FBA753
+            A322EA76E6E16BCD759BE935D08AA2AC1C843147BB5D84AFBA16CDAD6DE02C02
+            EC4E2F3ABA0E9AA5C0F8F8D0C4F4CFB659A74F85BB5AEB30D36B602449FA7A60
+            70F0CB8ECECE47AAEAEE90060742981C1FC4477DA7C0532AB442468F4C5EBBB5
+            BBA3FEB1BB0E793BBD35B93BDD759A948A71369BC51F6DDC5E7FD869AF9B9F9B
+            8B260DC195F918BCF2EA6B67DB9A6A9EB8FCD567B83A1A86BFD60355C74AFBB5
+            15D558265DF85F5886679B82A50807A95645342C60E68C88AA4A6F717846E90A
+            85862E33A61E169289489B6DE2B94AB71333711676D14AFC0B60AD76C8645D4B
+            95F0DBB722342F60F3AAF87DC08699D356E4321A1EBAA796F639D9630E8FAF6A
+            D5E181CE7DED271EA8F8E19B2B4BD71B3D962D1C43A144AED25F5034A02F032A
+            F9107D1AD2C4A5DD5A44962E21992B26035B6C8E5FE7F2E756050F1DBCFBD152
+            91BAB7C6C50ABD073CC7E6D39AB9F237866849A6502C00AC584289F4E716197C
+            7271E15C3257CA8B162CAC0A1AEC0EEE0DBE7CA472AC20ABC8CB3A397D736113
+            8C0E2481810E066FF7DFDA3579257C75758606BBFC0DCEEB8BB258E3F3046CA2
+            088A15C0F09B8755109156585CFA297E9A2E52C333D1687C9D87A6963D3BDF7B
+            7ECF2F2E894741299AD98D112C0C62C9025EFC78D4FFC7C4E894912353598BCB
+            CE435154E40A0A8CD66F17F9824A6A35945BC88D305927F87F5927A890701097
+            2EC9022769FB76E12AE3492D47FE81CAEA055B37C3F6F6F61D4FDEE79F145964
+            548D226F657378966153B22A9EBD34D53032321201803F01C2A37A8BCD127561
+            0000000049454E44AE426082}
+          Height = 30.000000000000000000
+          HitTest = False
+          Width = 30.000000000000000000
+        end
+      end
+      object separacion: TLayout
+        StyleName = 'separacion'
+        Align = alMostLeft
+        Height = 46.000000000000000000
+        Width = 8.000000000000000000
+      end
+    end
+    object Menu_Consola: TLayout
+      StyleName = 'Menu_Consola'
+      Height = 46.000000000000000000
+      Position.X = 368.000000000000000000
+      Position.Y = 358.000000000000000000
+      Width = 345.000000000000000000
+      object bGuardar_2: TButton
+        StyleName = 'bGuardar'
+        Align = alLeft
+        Height = 30.000000000000000000
+        Margins.Top = 8.000000000000000000
+        Margins.Right = 8.000000000000000000
+        Margins.Bottom = 8.000000000000000000
+        Position.X = 8.000000000000000000
+        Position.Y = 8.000000000000000000
+        StyleLookup = 'boton_normal'
+        TabOrder = 0
+        Width = 30.000000000000000000
+        object TImage
+          Align = alClient
+          Bitmap.PNG = {
+            89504E470D0A1A0A0000000D49484452000000140000001408060000008D891D
+            0D000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            035049444154384FAD93DB8B13571CC7BF676E9964336B12935DB2DBEDDE1014
+            C17D50DCA595D52775A50F42E883B6E05FE043ADAD4FA2F8A00FFA26C882B64F
+            4229FB5A1F1ADA4AF1251623B550459795052B68923573C92433999BBF99CC5E
+            40770BE207CE9C99DFEFCCF79CF3BBE063C3E6E76FFE3C3777E4A86DDB2C0882
+            D8BC398C018944020F1EFCFDF8F2E54B47AAD5AA16BB7A90C807532A95A66399
+            35D8D9B3DF1B8542212DCB09F8BE1F9BB746142558968572F9F77DE5F29D6A6C
+            8E60870F1FD56BB59AF2ECD922868787E0BA5EECDA1CDFF7C0F302AD1FD97BEF
+            DE1F0F63738490CB6570E1C279DAED372C2C2CA0582CD2623E766F4540F114E3
+            F775B8F0119E4ED354E4F379288A123928445106187C04760B9ACEB0A20A686A
+            7C34545D84694A2FA3C51B60A5D297FAF2F2B2129E6A7A7A3F3A1D0B4B4B4B51
+            3C39120CE8145CB20FDBE5A790F836BC40A04D105D59D7D4AF1B2BF5A729D185
+            E64C40758A0E3B706056E7382E12F4BC5EFC56AF1CD8269CF428F2B32770EED0
+            AF98C835A076E44830C4A3580A243CD46FE0A747FBF0E35FD3E044515C1308E7
+            D5F71E615DDAE0C8C6FABE03941B40FA0A8278F0DBAE92ED0AECFE1FA838E7E0
+            7BAF5CAED97C03CA321A8DC63BA3F6BA0EB5D944E039709C16ACAE06A7ABAF8D
+            AEADC1B634E86693BE4DF86ED061274F7EA5A7D36965F5BA1BE13D1B2AEB8735
+            7E08178FEFC6A7030ADA1D3BF6AE93A41AFEA5FA02D7CB8B8670E6CC37CAD8D8
+            18745D27D76A747AE4D209549FD770EDCE13E86D0B86958465D3C6E1B2301A34
+            F712E7C2F17A49A45E9E7F343B7B708FAAAABD52592340262561A96EE2566505
+            82C0530218644940436D5142824820AB2421F21C1C9F4AC9500D363333932C14
+            8A5324B6E1782E0D0122B302DD494ECA9F9DBA2DC9294C65CCB04D3052CC2321
+            89709D2E16FEFC17AF0C17C3E33B203A2D43A8542A1DFABB12E9BC87ECC4C493
+            99CF398C0FF421EB35717FF13F9CFE620AB9CC36B40C1D772BFFE075C384C4F9
+            54A371A76CC560666032A164A370B8F443D7A79845418C67C65143ADCBFC6FD3
+            F627CD766A70E7B1F427BB068B621B43850C2CEA96176FDA58AE1B78F8BC0ECB
+            17A06C1FA0E420B1216E9B333A3A2A4F1EFFF66E7664E76E81EAAE6658F0BB3E
+            98C42125F390C353F229AAD5A8543E26C05B01ADAA9358EDA2E8000000004945
+            4E44AE426082}
+          Height = 30.000000000000000000
+          HitTest = False
+          Width = 30.000000000000000000
+        end
+      end
+      object separacion_2: TLayout
+        StyleName = 'separacion'
+        Align = alMostLeft
+        Height = 46.000000000000000000
+        Width = 8.000000000000000000
+      end
+      object bLimpiar_2: TButton
+        StyleName = 'bLimpiar'
+        Align = alLeft
+        Height = 30.000000000000000000
+        Margins.Top = 8.000000000000000000
+        Margins.Right = 8.000000000000000000
+        Margins.Bottom = 8.000000000000000000
+        Position.X = 46.000000000000000000
+        Position.Y = 8.000000000000000000
+        StyleLookup = 'boton_normal'
+        TabOrder = 2
+        Width = 30.000000000000000000
+        object TImage
+          Align = alClient
+          Bitmap.PNG = {
+            89504E470D0A1A0A0000000D49484452000000140000001408060000008D891D
+            0D000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            040249444154384FA5946B485B6718C7FFEF3927173531269AA8F57E599D16A9
+            4E3ABA0C06A6EA2E748C8A631FC63E0C0665756594DDB4B0216314C674C82EA5
+            FBB00B83B5750A85AE742E286330EC9612E765A5A6CE5B324D8D1A9AC44473AE
+            7BCF499C2BD80EB61F1CDE9CE479FFEFF3FC9FE70DC1FFC4E9749A9F7FFA918B
+            DB3CCF7F3E30FA1C71B95C451515D54E4264A2288C928EBB2F2C0BF8FDFEF1E1
+            E1E1B9BE775F9DAC2DCBCF480ABCB4BC7E4786C7E35955FE035EEFF474ABCBF5
+            ECEFC31F2AD50D0D76A7B3B96AFCEA470A09066F2B0505F91004217DFEBFA3D3
+            E9307933B03D36D44F8E359719AEDFDA889416DA2C43EEC9CF484B4B6B549264
+            B3CD6603C7B190E5FB57AD9A1E490870E418F0CA33B550E8374D074AF1C3CF3E
+            FEE8F133062E2F2F17265336BCDE71489248FDA106ED0121443B4C9681502481
+            979E3A0023B57C4B54307EC38FFE41CF31358E611816A74F77A1A3A31D914814
+            068301393939B05AADDABAF358AD166D8D6E1951ED28C1E1EA628436683C2B61
+            60F4C608E5AA76F089139D5196E5CC333333C8CFCFA719C858595901F55D3D4D
+            8DD1B81396F0404306DE7A2D17A159097FCEB060A2266C2A62F8EBD1D91AAFF7
+            A775358EB976ED17B8DD6EAD54BD5E4FD75D1115D5014150301714B1391E439D
+            9DC313ED7674BC0CD41C89632AB8ECDE1153616B6BEBBA2D168B21994C6A9985
+            C3614D58CD8E65099657442A0874BEE1C0438C80EF5EF44129D3A3ECB00D5555
+            4604FCB1C4EA9AF97C3018D4C68434371F89D2F2CCAAE9FF447D5D5814F0608D
+            1E677A1C6878D8049E7674B07B09137D0154366621E9B4DC1EF464EC1F1BBB1C
+            4B6F033978B031CAF38279C72F4591B5F223B16C343F66C2C77D76982D2C0254
+            DC6462A12B3460EEB704D6BF5D45FFA5F8FB577C635DDAC634A4B7B7376EB7DB
+            33B7B7935A238C463DD636B2B0B5E9C6A9CE301DA52C6C6CC8E074449B419621
+            B03974309A32F0DE072B9FBCFDE6A59329A9145C5B5B5B667D7D3DE2F138F58D
+            852819B1343F040EAB708F125494F3B0E77110E9BC69AED0B95F0F0928CE24D8
+            67611A5332BB7067CF9EEB3E74A8E96822B1450575580D45515932F2284D1685
+            05D9C8B5329A98DA6D9E4F759D260988AA358A3E25B3CBDD9D48535EEEACE97A
+            DD71FD78A7D9EC9BE6C1D3FE45E81F4949894EBB296AD9EAE74FCF85DD274F5D
+            7E3CBD4DE3EEA14BB3B838E6FB6620DA32F27D1C35753ADC9AE5118B53255A2F
+            43AF9B28D12B97901058166FA676ECB2F7C5A5F8FD0BCBF38B054353537C69AE
+            8DDDDFD19E05A39E60623289A580A414ED63C9175F467B7CB3F373E92D1AF714
+            54090416D77EF5FC7141528A27B6137225C791A2AFCEC77E7CB235A362C92FA2
+            FB9D2B2FA443FF664F0FEF4553534B295D226D2DBA9E8579C1737170E442EA97
+            1D80BF00BB4BD91DAE971F220000000049454E44AE426082}
+          Height = 30.000000000000000000
+          HitTest = False
+          Width = 30.000000000000000000
+        end
+      end
+    end
+    object Menu_Error: TLayout
+      StyleName = 'Menu_Error'
+      Height = 46.000000000000000000
+      Position.X = 368.000000000000000000
+      Position.Y = 414.000000000000000000
+      Width = 345.000000000000000000
+      object bVigilarError: TButton
+        StyleName = 'bVigilarError'
+        StaysPressed = True
+        Align = alLeft
+        Height = 30.000000000000000000
+        Margins.Top = 8.000000000000000000
+        Margins.Right = 8.000000000000000000
+        Margins.Bottom = 8.000000000000000000
+        Position.X = 8.000000000000000000
+        Position.Y = 8.000000000000000000
+        StyleLookup = 'boton_normal'
+        TabOrder = 0
+        Width = 30.000000000000000000
+        object TImage
+          Align = alClient
+          Bitmap.PNG = {
+            89504E470D0A1A0A0000000D49484452000000140000001408060000008D891D
+            0D000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            040C49444154384FB5546D4C5B65147EEE2DB71F40992DAC5018B029435C0864
+            A9C260CCAE1B30B3E9C4C41F123586EC87591413FF9038131363F6914CD43F2E
+            4BC46FB269D8D401DB9281B00D98A3012D965164209FB143CA4ABB524AA13D9E
+            DBDDCCC8D45FFA244FCEE979CF393DE7BCE7BDF8AF2128F21EB659AD39559333
+            6F8888082B502956404414F120B49AD2BF6AB35FBBA498FF1D5BCACBB39A1F48
+            F68601FA9D796B0D97997D9A782A29DBB95B09F967C8C92EE88DDE20073921D1
+            E0DF7080E9E37387A425EEA45C09BD1F0F555666CAC916D9D9C5412E9643CC41
+            A863899C2C65DB70CC26D002CB01B5968A76D8762929FE44A175CFC69624A337
+            C04E2388A39F587EB3672F75A4A4D14DD6E564632C7B984D4F3E4DBD313F81BC
+            2C7F54EBA86C6DFBA78CEB67437C3804155D67C7B6DAD7E83611399C4E6A61FB
+            14B39D79F5CB46F2B0BDEBC449EAD268B85215DD91ED9A04DACA17A9A4839816
+            0C993CACC8D71D1008A275270CAC17E6E723A3BD0397F57A48C78E63FB0BCF23
+            99ED9A8ADDF0A924A8F9D66739CA180EC31C0EA7F3D15D34271AFCD3FC4F0E41
+            C3AD88B16A3A3EFE946BB90BD76F6E5A52F4BE9E1FE882A8A25F14FF31EEE8BA
+            A4A35DDB761429E978BDB8349235AE6E5194B081D5C8811AB4BF7318BC26C833
+            A741CBF2F6D57684B697A0341A81997F9B7889448E5C5DB3CA71B221C24A9425
+            09BCCEACAF32D5AC6B640FF7289A863D78F7BDAFA1353F0229251506498767DD
+            83D8E79E466485174D921D159C4D32FA47B93C7B9C8E1C2C2F73C193CDE7622D
+            9E6D3A43D96F36129EABA7EA86EFA83F18A6F3B35EDAF2D9F784FA6E2A3F7884
+            5A351255E79A53947450BDA4D61C31F060E5064242142B87EA10D85F85A35FB4
+            A06E540B9F360BEF9725E0F88B4F213A3D0E8B211EAF14A6E28ADD898E476BD0
+            526041E2A22F35C7A40F8C4FCDFC2A34AC377BF6CEB99317B865973105AFBFD5
+            80A9E5753C5D1D90968EB49B9D70BF5D85B6FE49547E780D42122172B41A6333
+            B7B0F923DEDA221B0F3D8C78FF1C36F536F58A27F2F38A3B8DA63BD93C609F4A
+            C454F266A0C4CACFE74120BC0CB5283722C1E3E3AD13F4A0256025B484753ABE
+            2AE2692FB3214E8B60CE562CA4E715ABDC1313DE1B8F979D367903076CF3B39A
+            4C471B12279C8804E6309F6B812F28A1D83F82672AAC28D0FB70E88942646C30
+            A3B6F1121C662B1297DCC8B69F19DED87DEA5CE660E7ABB141CAC8ADA8D8F489
+            29C32F7F55E477DBC73C585A417127FB081F74537DEF50ECA242D108D59EEE20
+            1CEB22F3E16F976C566B8D922286BF2C5101277D79D03560F1CCEB57050129E1
+            205C3A09E71FDB0FBBA04596B48219AD0E3FEB925B2CE4BD923ADEF3796BFF88
+            FCD0EEE1BE0F6CA9CDF670D98CBB8E0408115105637011093CF0203F37BF9480
+            1B86A4A65697EBA2E2FE7F03F80304E2E9DCFE9196EB0000000049454E44AE42
+            6082}
+          Height = 30.000000000000000000
+          HitTest = False
+          Width = 30.000000000000000000
+        end
+      end
+      object separacion_3: TLayout
+        StyleName = 'separacion'
+        Align = alMostLeft
+        Height = 46.000000000000000000
+        Width = 8.000000000000000000
+      end
+    end
+  end
+  object ListBox: TLayout
+    StyleName = 'ListBox'
+    Height = 217.000000000000000000
+    Width = 425.000000000000000000
+    object TImage
+      StyleName = 'StyleBook1Windows 8 Desktop1style.png'
+      Bitmap.PNG = {
+        89504E470D0A1A0A0000000D494844520000019000000190080600000080BF36
+        CC000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+        35B349444154785EEDDD0DDC1C557DE8F1D9E7C90B110209908057E8A7E83540
+        A02A82D7AB584890562A58908478B9F752422B5AAA35A19F7A2B564DA8F8D2AB
+        9F0BD85AAE0525166FA979415040A2940495A2E5F5AA448857E4636385044D20
+        01C3439E67EEF99F39679FB3B3B3BB33B367F699D9F97D93FF336766E76D6777
+        CF7FCECCEC4E00000000000000000030841AA60B60485C73CD35A12922E6924B
+        2EE958E7FDD527AE62BB75F091CB56266EB7C481BB76ED62437A3667CE9CAEC9
+        7AFDFAF5B5DBE64B972EEDB84D7EF5DC38EFC12E0EDE7FD4DD76526E6E2F4920
+        E79F7FBEE98375E38D37F64C201FFEC00AD307EBA39FBC9A0432D5D22490254B
+        9698BEE1B761C30612481F121288D0DB8C04928C04924FB7043262BA00AAAB63
+        A5081489040200C8850402541F9F634C09DE78C0F0E05016068A040200C88504
+        0200C885040200C885040200C885040200C88504020C0FBEBD8F81228100D537
+        61BAC04091400000B990400000B9904080E1C0F90F0C1C0904A83ECE81604A90
+        400000B990400000B990400000B990400000B990400000B990400000B9904000
+        00B990400000B990400000B990400000B9344CB7C5AE5DBBF85D1DCFE6CC9993
+        B8ADADF5EBD7874B962C317DC36FC3860DC1D2A54B3B6E93DBFFF91EDE835DBC
+        F5CD2777DC76D75C734D78FEF9E79B3E5837DE786370C9259774DC6E7FF589AB
+        C20F7F6085E983F5D14F5E1D7CE4B29589DB2D712009C43F1248AB5E0924544C
+        11091A8A29B62181242381E4D32D8170080BA52415243A339B09985224100040
+        2E24109409EFC7DEA6A9603BA1147823A24C783F76B79F0A492033741F30C512
+        8FA57212DD3F4EA2B7EA70125D2AC77D52F8C04D3FE73D18F3C9735F36DB1465
+        1BED8D8AED38899E8C93E8F97015560990405AA54920E79F64EB4BDC78FF6E49
+        20FF51159F524102C98104920F5761A12A783F76F78C0A49B212C094E3030B00
+        C885040254C7A8E902A540020100E4420201AA63DC74815220810000722181A0
+        4C264C179DC925BCFA526760AA914080EA2071A05448204075D0FA40A9904050
+        261CC2EACE260F92084A810402540BC903A5410201AA83E481522181A04C3884
+        950E8904A5400201AA85E481D2208100D541F240A990400000B990400000B990
+        400000B990400000B9704FF401E19EE8AD3ADC13BD49EE896E8A303E79EECBBA
+        BE872CEE899E8C7BA2E7D3ED9EE889034920FE91405AF54A20C88F04928C0492
+        4FB704C2212C00402E241000402E241000402E241000402E241000402E241000
+        402E5CC63B205CC6DBAAD765BC7229AA292241B7CB51B98C371997F1E6C3F740
+        4A8004D28AEF81148704928C04920FDF03010078470201CA6F9A0AF9ACBA014C
+        39DE88281BDE93C9481C281D8E419704E74034B782B4E54EDD3AB0F7884FEA76
+        BC7F3CE74092710E249FCC27D1317824104D9243C78A11E970055B67BD128829
+        22A6530241494802A91379BEE6A9BBEAD4BA002A8F0F2C0020171208CA84C357
+        408590400000B990400000B97066BD24B80A0B985ADC873F59B77BF1F3012E09
+        120830B524819C7FD26CD30771E3FDBB492055D0E1B2D6A1460289ACDB70AB7A
+        ED135E7E19D468046118AA8E6CAA5E6F116773EA5163E3EB79A4D56B59FD485E
+        0FF534E5AF2EBBFA5E6D3DBDFC0983F396BCADE3DC4820ED4820E556C673505C
+        0935609240969E7BA6E94351D6DF749B4A20679140322081A0927EF2939F14B9
+        0B5CA857BCE215993E572490C1587FD3ADB440322281A092248164AD88CB20CF
+        7AAFDBF0359540CE327D280A0924BB5E0984CB788129C77E1CAA8904024CB9CA
+        1EADAB9C55AB42EA3C8FD898006A63CB718FC8CDB9E0090904406DECFEC50C8E
+        177A44020100E492988DABF2A5B65E5F44E3790C96CF2F067215167C93ABB03E
+        BFEDE8FDEE58B1E00533A8055761B5CB7519AF5458679C7186E92BA73BEEB823
+        55C55BF69F0749F3931EF23C4E3BED34D3574E77DD75170944C99740F81EC820
+        9040B2E3325E004021482000805C482000805C482000805C482000EA812FFC7B
+        470201A61C351BAA89040200C8850402A01EA25B1BCED4657841020100E44202
+        0100E4420201A65CE57EB1A592C2300C66EC3FCE150B1E91408029479D360872
+        0A64C633FBEF33BDF0800402A036F64CDB3B618AF080040200C88504024C39CE
+        81A09A4820C094E31C08AA89040200C825B1EDCC1D0907873B1226ABD31D09D7
+        AEFF5AD8D0DF92765B22F17ECBCEBADB63BDC925ADAEE84BDADDA49F777E9D5A
+        629D96DD69FCB8C96DC61D09B3E196B6249081208144AABADE208124E196B600
+        80422466165A2083430B24599D5A20E75EFB0B732CC64E26BD0D7D58C93DD424
+        87B9A2FEE8B15E6247A9FCCBF3EA645EA7E8F96AD231D347DB464AA1B35D2251
+        BF949C69CD84375DFCD28E6B4D0BA45DAE4358C054AB57027932DCF0CEC34C1F
+        8AB2E4BAA75402399C04920187B080D29BDC7B4691D8CEBE91400000B9904000
+        00B9904000D4C6AA5521759E476C4C608A455F2244D1643B6F39EE9169A6171E
+        F0CE4529D5E92AAC25D73D19AEFF23AEC22ADAD2CF3F153CF7DCB35DBF896E8A
+        7074BB0A0B2825A9884DB152F2ACB72410144FB6F319576F9D69363B3CE01016
+        002017120830C50AFFC63834B6B37F92402438B10400C8C42610000032B1C983
+        24024C11AEE21D0CB6B37FB249A7AB9004D27269DB8A152BCE6D341A6F0DC3F0
+        64D57D85EAFE4475EF51DDDBAFBEFAEA9BCC686D8EFBECC4B9612354D34D9CBC
+        6BFBF657CC993F5F4D37724F236CDCFEC87B463A4E37E8E5A1DCB88C17BEF5BA
+        8C7708C8FB6EA0677A6C021955B15706BCEF7DEF3B4C55DC7FAEE2D277BCE31D
+        A32F7FF9CB83430E3924F8E52F7F193CFEF8E3C197BFFCE57155A95FA9E2D39F
+        F9CC679E9269C4F1D74E1C36F162F8E7C1533FBFF4AFDE71E4E86B5F1A04471E
+        1804FFF66C103CF88B20F8C897FF6D3C38EC65578E4C6F7CFA87178F34A71BF4
+        F2500D2410F86612C8412A81A85A62280D3C8108B92E7A5654D42D814FDD71C7
+        1DE10B2FBCA0EAEC76325C1E97F1CC24DAC2BF1BFFD467EF0BC3E7C7CC883132
+        5C1E97F1CC249A5DDEAFF78E852FEC8BC67B766FD4957E19DE7D79136609AD64
+        78D2F2500D79BE4F510679D6FB5CBE073210B29DCFB87AABDACD1C5A03DFE192
+        054A029116C8F3E630D2DABFFEEBBF1E9D3163863C9E686C6C2CF88BBFF80B69
+        192C93C34BFA30D2F66D6BEFFFCB234767497BA6835FBF1804277DECDFC61BF3
+        8F58268797ECF23EF1C9FF391A8C4E971B270577DC7E5BF0E0FDFF1ABCF6A4D7
+        05BF77E659C192254B8360FCC5E0B20FFC8F84E51DA196D7D0D3DD7AEBADC17D
+        F7DD17BCEE75AF0BCE3AEB2CB9B9915A5EA896B7ADB93CB31AA880AA261091B5
+        052215DB065A20855BA25A20CFD302F16EE6BC79F30E90C2CA952BAFBBF7DE7B
+        75B6EE45C693F1653AB5977FDDFA2DE6811E643C19DF5D9EB434BEF44FEBC3A3
+        8F3E3A3CEAA8A39A21FD325C1EEFB4BC75EBD6254E27C385BB3CA08C68810C06
+        2D10FFE4E47973A16A1B9F2CE720D290F1647C29CB096C390791868C27E34BD9
+        2E6F7C2208BE7EDBD774CBC625FD327C9F7ABCD3F2A4E591349D0C17EEF28052
+        AA6C5BAB62CABB9D075EF1FBD292401A8DC62BE404761A329E8C2F65B9FA494E
+        60A721E3C9F852B6CB9304F1E0FDF7E9C7E364F8847AE13B2D4F0E5B25B1C3DD
+        E50100FC91E4316BDEBC79A33B76ECD8B362C58A1F7DF0831F3C66FEFCF9D1A3
+        5D6CDFBE3DF8F8C73FFEE8D5575F7DECB19F7DF147B7FDD769C71C35C73CD8C5
+        4F7705C199FFB8EFD11FBD67FAB17679B3E7CE0F2EFEA3E5C1BF7CE75B66AC49
+        6F7CD329C1DF7F7E4DB06767F2F2962F5F1E7CEB5BEDD39D72CA29C19A356B5A
+        96671E024A857BA20F86DC13FDF9E7BB9F03D9BA752BEDC10EDEFFC0F6BFBCE5
+        FC377DDCF46AD2020955F2D01B4DEDE1DF2397CEA621E3C9F85296EF5DC8A5B3
+        69C87832BE94EDF246D55A9C71E65941FCC4BDF4CB89F469EAF14ECB9313E649
+        D3C970E12E0F40BDCDD87FBC6B82909D672239664E8CFFD26CA62649204D6118
+        DE2EDFBB889F538893C7CDF7336E977EF9D29E7CEF42AEB2EA461E97F1647CE9
+        B7CB9BD8F762B074C9D2E0C3977F2C78836A71ECB7DF2CDDF2F8F0E557E8ABB0
+        E4F1E4E585FA6AAB2BAEB842B73866CD9AA5BBD26FAFC27297079411DF901E0C
+        D9CE339ED97F9FE94546A3E3637B4CB14912C88489402E915595F4959B366D6A
+        3B316DC970795CC693F16598BE44F6B0975D79FDFF8D924412192E8FCB78F692
+        5ABBBCBB37DFA52FD53D6FE992E0BACFAF09FEF5E147826B55F73C950464B83C
+        9EBCBC864E12922CE470D5238F3CA2BB3679C8E3EEF2803252EF6D534291643B
+        EF99B657D775C8AE118EB7255FDB0269BE83D546FEF4D7BFFEF54FCBF73CBEFB
+        DDEFEA731DE3E3E3BA2BFD325C1E97F1CC249A7CE3FBB3F74D7C5ABEE7B1E147
+        D1B90E39392E5DE997E1F2B88C6726D1ECF2E47B1E0FDEF7DD60F7CEEDC1ACD1
+        71DD957E19DE7D79DB3A2C6F5BE2F280B269D0041908D9CE43FC3326859B164E
+        B4B52A3ABE73CD97FCF82D2CA060E75EFB8B70C33B0F377D28CA92EB9E0C6EBA
+        F8A55DB3F5AE5DBB680E76F0BE9BFFE5BC7F58FED6F5A657938D29DF1D979608
+        99199802FC16D660C86F61A9444D02C9E94F37DCFDB61BFEE8ECE80B76866C4C
+        F9191349203D4E810328822410390D628F64E91E2D1A9074842BCD6993AC47C6
+        B29E8AC973E42DEB326413C862ECF68977E326E71F151A66243B3E0924BF9537
+        7DFBCC357FF8B6960B9264634A0211E3A60B00B54402E96CE5DA4D67AC79D7DB
+        379A5E4D5A1E6C30004057A38D89B62BD8DCABB0A425120FB957BA8DA4C76C59
+        E6E30E8F8F6F87C587DB90E925A44564C3F6A7E54E6BA777D7CB0DBB2E72FEC7
+        2D4B74FE196200A8A9703C3981C840093984150FB9EED746D263B6EC4E9F34BE
+        1D161F6EC3AE8324321BB63F2D775A3BBDBB5E6ED87591F33E6E59A2FBB72801
+        A086468386D4A72D24810000D0D5C8E4D51D4D2D878856AE5CD936422F575D75
+        5563E135616867D4BC4A42F7E8412DEC95138F5CD2680CFBF2A21280AAE0247A
+        67EFFFF2C645D7BEFB1D779B5EADA592930AF6CA2BAF347DBD5D7AE9A5BA823D
+        4E55B03FFC63333085E3FFF764859E7779DFFDC36898ADD02D79F5E335F77FFE
+        42FFCBCBF3FC4C2F808A208174969440BC1CC26A6FD8749765FCD5AB57074F3C
+        F184E98BB8D3375B038A746DAD7DCDDF5E1DFCFBCFB7E972D6F58B2BF2F90140
+        1534120E6179492045ED6BDF7CF3CDC1E5975F1EBCE635AF314322F1E5D95EDB
+        BDEBCE6FE804B2F49C33CD90FED0960050772313052590CC7BDC292A64D594D4
+        378B122B57AED45DABD3F264F0B3CF3C1B7CE8B2F7EBFE0B2E34C7B93A2C4F6E
+        931B8F24F1E5F59C8E8403A0064A7315961CAA7AF8E1874D5F74A7C1679E7926
+        78F5AB5FAD1F8B934A5D425A1A8FFE688B1E26F5F6873FF8FE60CFEEDDC1D1C7
+        1C1B5CF2DE157A3800C0BF293984151F5DEEE12187AA162D5AA493881CBABAE5
+        965B9A8FC5C9F224BE7AF37A9D40FEF00FCE5749E447C15D777E33D8F4CFDFD4
+        E37CF4139FD25D9171F5DAF4FBFC00A0EA2646DA6BC2529C443FE79C73744B43
+        5A1C279C7042F3D0D5AA55ABDACE7F083BFD696FFE5DDDD29016C7B2B79F197C
+        E8B23FD7C3A5E571CCB10B7559645DBFB87E9F1F00545D687F99D2518A93E873
+        E6CC09366FDE1C9C7AEAA9BABFDBA12B619737FBC003832FFCC33F0527BDEEF5
+        BA3F7EE8CA5745DEEFF30380AA1B514D10536C9A9A93E8096C12B9F0C20B757F
+        D2A12BCB2E4F3AB30F9C1D7CE1861B83DF3F67891E660F5DA559A7C71F7FBC2D
+        92C4E795763A0018667E4EA27BDC4397C4F1D0430F251EBA6A8A2D4F2AF82B3E
+        F9A960ED576E552D90E8D095B41A247C24374E6A00A8BB89A20E6135BFC99752
+        AF43425D938750CB9345CA6CDC0461CF7BB4240D3552DF87A03C3F3F00A89AF1
+        69A36DF9A2A5AACBFD5B517F1786766FDFED0A5D99ABB2F49AA2D6D76F535564
+        79A608A022F82993CEFE6CFD5D6FF9C23BCFFD86E9D5A8E400C0208174B662DD
+        DDBFF7C58BCFBEC3F46A7E0E610100865A6374A42D5F904000003D8D87241000
+        400E8DD170B6293691400000298CEC350500C01418AA9D765A2000805C4820F0
+        89CBC28129F4E8A38FFED814078204029FB8861E9842232323BF32C58168DB63
+        5CBF7E3D95401F962E5DCA5EF824BB2D784F0111D9699F888AFE6DDDBAF59B0B
+        162CF81DD35BB8C40472FAE9A79B3E6471E79D779240DA91448049452790DB55
+        0279ABE92D5CE221AC300C891C81AE48AC40F1067AA92DE7405034124731669A
+        98E1C47413D34C8CAA40BD8C99EE4090408A41A53949B685DD1E6C177F5E3021
+        15868D174DEC3331AE02E90DE2FD59D8E12B1186A1BCEE034302018048E58F43
+        371A0DD9811818CE81780C24B22D105A1F40F1688160A8C4130789042888DA91
+        E51C08868A34A9E558BC1CFB95661A4D35A0208D4663A09FAFB6BD41F91EC869
+        A79D66FA90C55D77DD65BF072289B9D0936535205713C987C1261E3194C967CB
+        962DB548AA0B172EA4F559B0AD5BB77E66C18205EF33BD854B4C208B172F367D
+        C862D3A64D24107F0E5021C773653BBA31742481CC3DF450D3570D92F1B26483
+        9D4F3FDD9640B2244E924F3A8F3DF6D855471F7DF44AD35B384EA27B0C7825C7
+        72EDA5A89238D8C043481267AF402603DDC94A6C812C5AB4C8F4218BCD9B37D7
+        B605B26BD7AEDDAA23CF3D6B45AFA79933674EFC6E673376ECDCF542D0C8BFE3
+        F995DD2F1EF9AE230FDDB6E5C7FFAFAFE4F39DFDE6E8F95CF4AE77EBF934D7A8
+        D7AA99A5DA85BFE1C31FD3F331BD4D756E81A479DE49D322996A81FC2FD502F9
+        33D35B384EA27B54F356881C72DADF74B3849D26AE315D5519D355559537AC69
+        E1445F6185632FE898B0F1428F30E3D9E9800118689D4E02C1D09A65BAFD2ADB
+        7C804E1A8D060904C060497B2D4B703CA9B4482055A5B2BF2901C0E0856138D0
+        4A880402004342EDC4CAAF320F4C6202712F4D25D207004C31F919FFBE6CDDBA
+        359430BD5D91403C0690975CAA3A95B12B6324CDA35B6030543D24BFE030306D
+        C7CBE47B20A79C728AE94316DFFAD6B7EAFC3D90BE32E89C3973E2EFC5996A9E
+        7DDD5DED6BBBF71D79C191876E4BBB37D5C9F7661DACE7B37CF9F2BEE6F3E68F
+        7E5ACFC7F4D61EDF03F14FBDD7FF69C18205FFC5F4168E732000303C729D0371
+        0F5BB9E55E482000A68CD452F1405FF633DD81483C84F5DBBFFDDBA60F597CFB
+        DBDFE610564E753E84259F3953EC9B79FF69BDE6EB8E2B3EF4B5A7CDF832588A
+        ADDD2BDE7668CBF8FDEA74082BBED272CE854358E9A8F7FA37172C58F03BA6B7
+        70B440801238FDF4D3FB8E2432FCCD6F7E7320B76878E31BDF18BCE10D6FD091
+        AC11AC5C3C47C5412DDD15AA9BB0AF89723AD0747B720F55752AF7929840E257
+        1711E902C82BE9FD9435FAA7E6A31285349D27D4ECA42C738D66CDFBBB22E698
+        EE40D002C1D0FAB5E9F66B10F3494A0859C387099997CA2032BB099545E48BCD
+        A48EEA181B1B9B6B8A3D2D58B0A021D1ADDC0B09042881BD7BF7F61DC0F1C71F
+        3FDF1407A22DCBC889B737BDE94DA60F597CE73BDFA9ED49F402CC54A18FA6A8
+        909D601B43473E739DCF4BA477EFBDF7B69D44977320B6852249C6B654E2E38A
+        0F7DED97E1FB16454740D414AA72908765FC46F099CDBB822BDE76485B7DD10F
+        4EA2571F2D109495DC40E34515DC911028A9B6AC4E0B24BF5AB7404E3C71FA89
+        C189C10107BC340C162D0AE61FB728DC3E6F73E3D18F7F7EE6F483E64D8CEE7F
+        6038FDC083C31907BF349CB768DEC4FC1D8B744258F84894182E5F2DBBBC0D37
+        49C817A2A4BF162D1053EC5B7F2D90A7C33F5DE41E429771659430F81BDD02E1
+        325EB46A7B51E44D77F2C9279B3E6471CF3DF7D4378104C1B4071E78405A0CB9
+        9D78E289FAFD78F3CD37F755A19E73CE397A3EFD7E6F63CD9A3595AEB4F22690
+        F8E12BF1379B779240D026F110967DC311D902A83A791B4721EFE946B31F48C2
+        399062D4F12347353304A217D17CFF4347F40F48420201D0914D24401212087C
+        A19EC949CE3DC825B451375E4E0A793C3E4ED46F66995B74A241CE8144E511F5
+        576290ECB26DA0BC48204009C8EF4EAD583C37F8D3457302F92E869CCC7EEFA9
+        7383F79890B20C9390C7A371A290E9647A1FE4B6FE23EA8FDCDF5F2E8A93FED6
+        8BE380499C44F71835472D935BB49FADDE452D5B51F71B5276FB35E9D593D8E1
+        FDEEAF47D75ED9B5913E391BE20EADB25F3D371E12BDC36CAE54DADE153EAF49
+        AFA3F8A59175F2C0030FF4F5DEA9EB65BC72E8497EF556FF80A1ACB15EAA5C01
+        D59A1AA4551031434D276A3504C1559B5ABFAB91EF32DE39CDF90A59A6ACC520
+        BF0712E7EB8E84592BC7BA3A78FFD1D4DBDAEB1B02F54602C947CE5FC82128D9
+        D7971F30B495B6FB4386B222F65052D422906413F58FA8EC21635EB5E999969F
+        1BC99340E470982C5BFE47094BA60DCC4F999040EA204B02E11C0830E56CBD16
+        258FA83FFA0CEBCABCF9B80CB38F47E34E8E2F6C37AF281149A5202D1A29EB25
+        CA1F5D025A757857A85D9F55ABD5638B46822D3B4682C30F681C316DF7C8F873
+        B3781729A3FBFF3ADCB66FF644F0E49E3058386F2208364F0497AF569FDE7A9F
+        6DA405928FB440E4A64DB2A72F2B1C55E3B2E72FF7E63095B8FCD36B23FDD16A
+        45C925FA10CB635727B4404C3151520B242AC9E0684DDC2E2D907A28EA1096D7
+        37CF10AAFD9B9304924F5471CBA2ECEABAE52476B5DC71A2697C57F245228194
+        93CF0492F47865DEA00392F4A6946D54B7DFC222812013124839F59540965CF7
+        647323DB136ED23E96119BFD8312B5D9FB967A2EEAE9657B8632B63DB4106D9F
+        9B2E7EA91C421EBDF1FBE18B1967D693AFD9C9FA9EFF2A4F1BD7410241162490
+        72EA3B817CFC9C79BA2C0FCA16B72365DAFA3E938DFFBA2E59C6758EAE9631D4
+        B497DDF27470D33B0F1F557DA337FE201CFBDD97CB716C39D9198DD23F3F33FA
+        C64F1A2490144820C5228194533F576135742B63420AAA4E940BD3F57D91D523
+        2A6458EAF0F92F69FE0584FA9B29A2EDA38A76DA2801C9830030F4E2955DE3DC
+        6B7F31F189B3E7EBBD66F71096EEE8BF836196EC5DB7E79079997AFBA8399A99
+        5E76F3763984355D15476EFC7EF8C2EFBEDC9E06F1B5E5FC6C956F3C3E52480B
+        246EE9977F36ABD138726CDDB286DC551068410BA49CF2B640CC44D161195DF5
+        A93A2634F58C0CCB1AA601932BA46E9604E63B26BA845A64B6D0DB4775A56752
+        DF6F7400A8828E5F24D415A4FA63BB42F7670999266714256959CD507FF28430
+        1D2109C449225294477D44B5341ACFD2F2008658DB39106970E8EA4AFDD17BE5
+        BA3BD99F25D4FFFE42B786061849EBD035CC7354DB4BB691C91BB104526FF69E
+        E700868F4D202D159E7CE2E39F7A3B6C98232B3B8DED9AA37DFAAF2416294607
+        C66C4E294744EB56BCEDF376D4EEBB30409DB41DC2D27BD5A66C6B44A977A2FA
+        5015B2441F64797AEFDE6744B3EE4C56394B08D5956DE6B08F28EE883ED8F9F5
+        1B83317FC7A2F0F2D5BD373B806A8A9F449FAC5D9C8FBD145BEBC8C1D0CBF518
+        69244DD729ECE68ACA4297F476B41B522E436E49627D842F932F72B1D69D174C
+        A82DE171CD019449C2497455BDC42A2E5D79250CEB164EAD5A1E76BD3A44D2F3
+        E81622EA4E2609DD63D991EA8AE4010CB58404622A48DBD585D6FEAA8595F498
+        CF68C91D3AA2BF650BF90B00FD4A4E204E376F65A3A7557FFA89E60AF88A3492
+        A6EB14D271CA9DC44F0DE50DFB5D967E03007C484820AA8251FF557D35D935A4
+        9C29D49F7EC21BA93353D69B49EBD129DCF16DB945BC1FA5A1126993190420A3
+        C416485CD53F6119F2875751FE90254BC947F8D196E88AF739D3CD4EEEAA5480
+        46742B3F2D431291E76103A8BDE44358EAA3A57F23D076D5C74B42CA69433E91
+        7D875ABE9730F3737F2AA563C87859434DA7FE2399AD6C7355BAE7AD53EFD1F2
+        2491779BAE2089A0F63A9E03E937122BDA8C6125CDBF6CE1AEEF24A99FE40AAD
+        E473115943EA3B1FA1577830E2956CE64A77FBBCCD0D9D440AA2B6074904C8A9
+        FD83A92B187359AAAA15252C3D2C65482565A7CF1B132692E69F29A2D5E91DEA
+        4FD27A740A9948A6D1A41F2EB772CD5DE9CEDF316FA4C89F437193869B4C7A20
+        89004AC73DBBC98FD5645957B029430EEB9485AC4ADAC8429EA7ED26E50FFBB8
+        D44B3EC21B8FB34AC156B66EA59BD6E7D62D3B7ECC945D5E2AED9CC943744A8E
+        40ADB42710F5996AFE10A2F44683A2E3FC59C34EDF6FA83F030939DC9425F474
+        A66BD6B355DB80BA8957AE992BDBC6E8E875975FDE70F333C90328898EE74074
+        5715A46C9347567AFA124454BBA708A798266CAD96D4FA902A29FA2276196320
+        3A55AE592B5DA9DFFFDE94BD1D2E92995A66501A240FC09190405AF7A875056C
+        CBD2CD12EA4FB5A2FDC475B710B6AB2FF7D2CF3A890CF711B5E356D265A8BC65
+        B93680DAEBD80289575BF161447BB824AF44C3E59F73D8ABAFF0F3AF4CE7A77A
+        59F28F3F7DAF295A54DE4049242410A9624CE5A776AA9B5D5BCE1276BABC9134
+        CF7E2269196E244DD32DD49FA86297C358F217BEED99BD77E2231F99F863D34B
+        F2183272BFF35E81F26A4F20B622D595A3E9E60D99BE4CA1FE780F67DE7AE3B9
+        54566AA84D2C7FFDFC9379F51F89CDCE929ABD674C6F5985E43164162E5CD848
+        1B6612944CE23990D65A57FD8FF50F2C7C4B5A463F21E2FD2DA2F7BD3B4A3F01
+        0065D296405A52BDAAB5727FFDA08CFB0CB24EBD220B357E74C02F2ABBF45035
+        2CBA24DA53F8FA97F5794E21B92D6EEC325E002551EEA31976D7DB570C9AAAF4
+        7594CD00574925BEBE96B668F322920750526D09447FDC5B3EF27A373B1A641F
+        23A2106E79B210C857406CDD293BFC3EA2B9AC3E635039CD268F7E9208F75407
+        CA2BB105229FD866A83FF613DC32BC57A83F7D47D27CFB09F5A767244DD729D4
+        9F66570A688A278DDC4984DBE202A5D57E0E44EDEAEA0A7142BA8DC99F355165
+        F9240F34D41FAF91B48C7E42FD89E6ABB68D0C983C61A47B857CD1B979EEA1CF
+        7F55E1260BF79BDE599348A7F1B3CE0740318A6B81D4305AB8C79D6CB9EF9079
+        F90835AF01B0C9C34D2259C59385AFE421F3B1CCA05EE49BF036002809E740D4
+        BEAEFA48E92FD64959864959BAAAE6491F769A3E42F6DE7D86B4A2D48CBD85AC
+        A3FCB15D531652634ABD298374D94354493C69F84822B6DB2F773E29D78BDFC0
+        021224B6409278F9E40EA9846ACD1962ABFFF284FC2D52A74A396565DDE48E9F
+        A3D24F44F200FC493E84A53E62D1391015D2AFCBD232C912328DDDEBCF1EAAC9
+        6016EE21E4C79FCC4F0A47EBD52554F59A3A645D65116A4299560DB2D400FD57
+        0DB2CFA54C11AD64152C5B174C33458DE4019447EA16085273AA679345D08747
+        4657AF0E46A5D44FF210EEF46E32E9C24D1A9CFB0062DC04D2ACEDF4F9023B40
+        FDD13BADFA11F9FCA50C3551B4679E2FE4EAAF66A835E92BD4EAD868D9116F0B
+        E779A70E338D9A5EADB8FAD37CC8B0BDE509F95B15BB0F98D1D8729CAEFB650B
+        F78D2402F893D0025115E24454C9C8C74B5790E670D6841A9E3A647A5DB9F611
+        B27C0959BE8F50B57CF790F1D473CF12761DD5F486EAD383143B4C0FF2107EF8
+        A98A07E380DDFB8D6C9FB7D9EB1A9344003FDC0FA6941BE75EFB8BF1F8CE5EF4
+        19CBF619F65349459FED541FF154BCAC54933C4759B7A8AB529E2A6C78E7E1FB
+        A987F6FD9F87C37DF6F132FA6FAFF1F30A15EDACAFDEFF92DDB3778FDDBD78F1
+        3E3308C8E557CF8D97F4D3582E07EF3F9ABA6E7047B465E94A48EBC4EDC60351
+        868B876AEB04632AE0C1A96B7F7840306FC75E1208FA450249274B02E97612DD
+        AD1089F4C19BD4B33D5B67B3C3029450FC24BAEDC6235E498E9B880FAF4B747A
+        FE767BC1931907ED0B0F58B09B6D0A94909B4092F6F2DC0AD196E395669D229E
+        383A25510EF37972D0AE83657B0228A17825D7B860CDCF9D0FACE40B338A3D5B
+        5C389BAFCA28695B38DB48B961F9CB7452BEE84BDB279A67D07D6D375F67E4D5
+        FA5CFFDFE70FE2C5ECDBA99B7EBADFFC1DBFF9E2BA650D49D6406E9C034927EF
+        4974ED82EBB785CB4E9ADBACF4F4D545BAA40C24815480A9C875EAB0DB440D5B
+        7BFFCEE0868B8E8812C80D4F4DBC67F13CFD50FCAAB6BCD25D71DADB6737ED08
+        AEBFE0B04ABC9867DCBE75E6EBBFF7CA17077457C2F836917E5A40438204928E
+        AF93E8BA52D4951F89A39DDA267ADBB457EA32A06560E8E99FAECE7C4485FC7A
+        D6CF07D9F2B0AF9D0D9207D0457202B10923A98294FE3A874BFADD6DE552FD32
+        48878CE62364B61EA26D5D4B4C6E69CB5D09812911AF3A6C34B5F4880BD66C0B
+        979D181DC2B25F8E938A523EC17AE40A553E85886D0B771BAD7D606770C3F223
+        F443177D697BF8DEC5874A513D1675FAE669D3FFEDA6A72B730E446D57C9C424
+        10A084BA1FC2425F544E8942CA3E42FDF1119542F2004A2B21814CEE98BA277F
+        A5249F64D9E32E32D49FD2865E47B32D2C771BB53E0200C38D16488146547291
+        7FD22D53E88408007D6A4F207A173BAA647435632B1B19265134BB9C3286BB7E
+        C2DD4632CC6C2A00A883841688530BC6F654A5DA944336454699E97534E5A696
+        6DD4BAEDA42F6C84ADF736E9237CFD534F245A4700E80387B02A4427240F0100
+        3E242710A965DCBD6DD963557BC0F1164921EC72CA18EEFA99BD78FD576F1FDD
+        3B496FB26860BC9595375AB2403F01001ED0020100E4D29E40644F57EF569BB2
+        A5CA03D979D5CB2F69287A1B98B266CBD2991C3E430FD0BDCD617D4B6A95E489
+        666B0A00FA400B0400904B4202517BA7F13D5473DCBFB9F75AE368D9062EDD1F
+        1F2611AAFFE50AF524A2F503803ED0020100E49290409C731DAAD02CDB3D6FE9
+        16196526EBE7ECC1EB6D633650D469AE7F5450E3E9168B27F61C46BF01003ED0
+        020100E4D29E40D41EF6E45EAA2AEBBF0ED9032F32CACC593F29455B291AA6B7
+        59CBFAAB722877B59D500FAAB28FD0CBF21500D01F5A2000805CD22590668BC4
+        760B24CB2A6B442B683AB6BF03D51A09D5283AA4D74BF8F957FA961E804A484E
+        20B10AA64755594B6DDB844A1940CD643B84452649BF0D1A236A54F54F354146
+        3CFD8B16EE21D4BA0140BFD2D724760F3B7E58C77794995D3F5A1B0090218120
+        1B956424CF48AA49FA3678BE887257BF01003EB42710D312900AABD9AFE8BE41
+        D43E6E4D57B630EB674A93DB461E33DB2D898CEF2300A04CDA6ABC0BD6FC3C5C
+        76D25C5D29EA079D4AD2ED2F8CADA8CB489EBB4920CDEFCA38FD6BEFDF19DCB0
+        FC65F2C0CC8BFEE1C9BD7F72DA3C3D8AAFDADFD7A6FFECA6A783EB2F38ACE017
+        12A5F4D543DADF8D2D434C4FD6379BFE1044455D3EFB97BCBF6AA0ED45BEE0FA
+        6D3A8134DF4083AED07DD5924548DA16CE76D209E4A2236440BD13C82DB14AAA
+        DB92E2DB26ED5AF59AAEDB36CFF2CCB3ACDFEF27579A77DE7967B7B5F1EEF4D3
+        4FEFBC96241078D4F6229340BAC892406E786AEF9F2C3EB4F58355127F77D78E
+        E0FA3F38BCB8B54AAAA43AE936667C0DE3E3767B0659C6ED26CB7CBA2490850B
+        179ABE626DD9B285048281E9780EA45959DA37921D5EB0E86471394373B783ED
+        CA6303DA3E8037F296366FEBAEE4FD6D23CE1DDE691C0C2DAEC22A4CF49B625E
+        BF7221F9C9478CC89F9288AF5BB3563395911B59B4CC5391C96D74E38E27E1CE
+        4722FEF8B06147081924576FE6C3AAF7BADD0FAE94ED1BACA0D0956E4943FD69
+        DB1ECD96893BBC8D9ACE4B00C99AEF43608068811466447E8C577DB055F2F1F4
+        2F98F014F2035D6521F59E1BB26A6EF8109F4F7C996E64D5CFB41EE91D1C60C0
+        48202819377BA8B02DBF41559066B1CD18366EC28B3FD74ECFB7DB6BE00EEF34
+        0E86567202316F82E6619B4192A67859234E6D9BE69E5F7C3BE9F1EDFD54FCFC
+        9339F90B00E84F7B02712BCAA44A13AD92B7972AB8DB4ECA3EA2A25A9E86FAE3
+        86645837BAC9326E5C7CDA4ED14BCBB8FA093901D44B7B0271F6A8F547427FC8
+        D530D51DC847449655D65012B78979ACD9157A1A197F205B2D1B597F00E89353
+        E345E4A74C4C31622A4BB9CA23AA1FDB26A9199512F42691EC106D1B97F92993
+        1917DDF0D40BD110E1ABC2F6B4EDD57A17FA45C2F837D1E38A5B72B2F8DA14B5
+        FC29FC2261F4F96C64FB22A1BB5DBA6D13799F0B3D8E19D14EDB69BA0EDB02C3
+        8517B91833548C45C51A2281B428ED37D1DDEDD26D9B9040D001576115235E65
+        01C0D069DB4BD8B87163E195DF5BDEF216BDDC412E6BC0A6AB78312AD650FCF7
+        96EC1EAC153BECD722FE8E18F4ABD76B5DBB3D5E9B1688EA6F4E6B2634833529
+        D302A985B617592AF557BEF295A6CFBF1FFFF8C72D0964EC3FBC490F2FC28C7F
+        FFCE5425907A2381B4A8D48F29A6DADE6A82E6341D26E0C7146BC1398435F9F5
+        6439195754A086E46577230BA9A83A4511FA5957A0664C0251C963D56A3E2E35
+        76D657EF7FC9796B7F2827FF0B90A1564E395A71DC15485809D9097203A8B1C9
+        16C896E3F834D4D8C8C4FEA3BB0F9851D3F7C0209A36C3C449A0F28E490AD442
+        9440A2D6C7A82EA3EA3E67BA998CCD186DDC71E6D10FABE27E2ACAF15E88574A
+        6E085FF57E7C3E6E5400BFC48BA9D26C811C71444802A93E9B3C3227918D671E
+        F3AFA6F8900A6A24003D45FB72E7AD1D3D6CE6DEFD9EFAD21F3C2757462D58B0
+        400F2EC2D6AD5BB90AAB184949E3DDA6DBCB96466364447FC77E726FF658D3CD
+        AEED2A2CD34D23EDAB9534CFBCAF747C5EDDE653C2ABB0ECB7D0C560AEC24AA1
+        8FCB78BFF7BDEF25BDBA95F1FAD7BFBEE5B93FF8E083957E3EAF7DED6B3BBE96
+        D103EFFADCF48367BE64D6AFFEE68267492095E4260F491AF1FE6EB6C81F9D40
+        C289636CBF91AFD62381B4285502915F09B08F76DB86EE639DE7D6599F09E437
+        7EE3374C5FB5FCEC673F4B4C20FBED274786AB67EFDEBD5D1348F310D6F8B307
+        4C9E504755D96491B6E5D124C9E38CDBB7CE5445FF359DBCFDD2463752A9D910
+        59A64D2B3E1F77997AB9B185B63C3635B83C1E53254A1A3BE7F20EACBE78D2C8
+        924416FECEC687F79FBD67CC56837E93885BC9F68A6E9C7A5BCB326D5AF1F9B8
+        CBD4CB8D2DB4E531A05E265B1D2F799E8F4075754A166992884E1663330E1A7F
+        7CE75EB7FA2CEE980BA696CD7F1649103935134838368DB74F8DCDDFF1DCC4CB
+        E79E38617AFD722BA85ED18DADF86CE59765DAB4E2F37197A9971B5B68CB6315
+        639F4612E729029D446F8FF3D6CE38F0C0F080673FFF8E5F7112BD9E4EDDB469
+        DAFC1D8BC275CB1AE366103C29D56F61B93FB55FE4278393E84DB538898E7A5B
+        B479D1C4BAF382625A200086120904DAE5AB03B916B48A07629085EC4BDA00FA
+        949840EC2FE7161118A869A6DB1BC9034046B44086DB3ED30500EF482000B2B3
+        579ED9106E19B5400241249CBCA1188618153C3C8A2A8DD865BC471F7DB41E5C
+        84C71E7B8CCB784B68D5AA70C4D78974B96CD5146BA3DBA5B3A5BB8CD7C72722
+        FE0ACB3CED302973196FD3305FC61B3D4002A93D9FDF031964855906BD2A6D12
+        48362490F2E07B204865FE8E7985BD173ADDF0A8EC3742AAEA7AF724ABDF29BA
+        E9369E3BACD77C30344820D0B6CFDB7FE4F19D0F14F27EE874F976AFCBBAA5A2
+        76A3289DE69D77BD4BCDD7AACB7CDC106E19B510BDDCB143587A5881DC43587A
+        40816A72084BEEFF91F4C3899D86BBE4FE1FFAF8CA796B7F3863DDB2E3C7A4AC
+        348767C521AC56A53A8425F76AE9F6A9EBF66971A78B8F278FD961523E9B4358
+        56ADCE81E87E548DBD81949B2C928625B137905A28F703B9E3AD0B5E50E5E630
+        D3CD8404D28A04920D09A43C3807522F3669D86E6A8DC6C8A3B1E4816125D581
+        AE12A4A637D11C96933B6D3FF341A5442FF5141DC28257494923CDFD4084D77B
+        A2D3026955BA1688E59EFB49735EC7AD197A8DCE55584DB5BB8C576D003DB808
+        EACD4102298E9B44D2260F4D5A204E02394E45EE5FE62581B42281644302298F
+        5C87B0E257BFF80C14CA268D4CC943BCE5B647FF93299EA022F7871F15D4EBD5
+        968F2D1F5D24E01CC8F0C99C3CC48CB1F1F08CDB1E7B8D2AEE55C14DA586593F
+        0941920DBB17304820D026469E1B9FBD678CFDCC0AA2658FA9C2212C68B7FEFE
+        49CF3BDF014185709F1D4C95660269CCD847ED0E0C3BF7532E8947427E885986
+        77AA01243FD98873A7EB360F0CA5C916C8F32F69BEF4492D075F0100180E5102
+        99BB939A1D009049B305327AE09EE675FF492D075F0100180E5102D9397762FA
+        CE904B37818A4ABD7396743EC31D26F361470F29450964E123E1F47933A505A2
+        DF56F15683CF00E01F5762612A340F616DDBD6FF9DE80000F5112590CB574BD3
+        4012886E2224B51C7C05800A908F6A33D41FFDD9950026355B207218CB9400D4
+        963D1902F46612482334AD102DA9E5E02B0000C361B2052249044025B17386A9
+        E024108DABB0800A4A7D1556AF8F60D2112CFB93274987B6DCC11D46C1F08A27
+        10000052494C20492D075F0100180EF106E7C8C68D1BC75FF5AA57995EFFBEFF
+        FDEF734BDB2127B77035C5DAE8754B5B531C88AEB7B4BDE59030D56126778DF3
+        7C5AFBBCA5AD295652D22D6D4DB1927ADF137DD2A84A20FB7EEBB77ECBF4FAF7
+        831FFC800402004380732000805C12AFC20200A09778C298BE71E3C6C26F6BCA
+        212C00183ED34D17000000000000000000000000000000000000000000000000
+        0032C8F39B54AF5131272A069B4D178325AFC1D92A16E9BE49F27ADC6DBAA5B1
+        72E5CACCF743B8EAAAABBABE371FF8FEA3E1933B769ABE20387CDEDCE0C4571D
+        C36FAC01252595D64F55486560433EC1E7A8A813499E2BA3622279CC2658DF24
+        616C52E1BE064921AF53695E17492059A44938B7FDF3BD66ECC8073FF5859ED3
+        00F02BEDFD4024793CA4E23755DCAC62B58AAB544845F91515CB55D4813C5FA9
+        C0AF5471BD0C889161F2988CE33B89486292F9DA56C71A1517A9586CE2ED66D8
+        2E15F23AC9EB22EB5209AB57AF0E9E78E209D397DED28FB5BEF5965E7C59E846
+        A76100064792877CF0E27BDE5299C9F0C96309C34DF6EAE5F9DA70938894ED70
+        D91E5289FB22B5A49DB724916EF3B649DD8EDF771239E69863643EB9F56A817C
+        E52B5FD1EB7AD04107E97E5A20C0F0900A493E9C725824893DA4123F1E3FACDC
+        CA5C4212473C79488BCD179997BBACB4DC75EAEBB59104D24F12E9964076EEDC
+        A913871A2D5CB56A951E962681C83910491A36D6DEBA29F7FA01288E6D6548A2
+        4852B70422E249C486EFE4216C6B425A8171D2129156E12A1549CBB5AF4DD2B4
+        A9D904923789B8094492C4430F3D64FAC2F0ECB3CFD6DBEED5AF7EB519420B04
+        1836FA43AE22E9B8BE3DB1EEF3908DADF8A462B464FEB22CA9A4DD642595B90C
+        934AD2F779876E929288EFE4615B7F12F193E249CB77B797B0C95F22F7BAB909
+        244F12B109E4FAEBAFD7EB222D0E4922F6D095849B54B22490470F0974D72690
+        A4F31D49C3000C8E3D07E256D2D2B587493AB54EF2702B3D77BE5239DAE16E45
+        69938DC4205B41EE21221B590E31A5E16E0B976C7B499AEEB26DC413B94DF092
+        7072E92779089B40E47095B434D4201DF14357162D1060782455945269DB0A4C
+        2A289FAD0F21876D64FE6EA527CB900426CB73F7A665CF5C86C93A0DAA05E26E
+        937845EE3389C8F394E7159FA79B58E2114FA2F6AAB0BE1388E9CDCC26102149
+        E4D4534F6DAEAF7BE8CA4A9340380702945F3C7948BFDDA395AEF40FAAD22E0B
+        779B48F2904A3E7E38295EE1FB26CB7497E786F756583FC943B809C4BAF0C20B
+        F5FABA87AE2C5A2040F5C59347EE3DD821E2260A9B3CAC7812711F2B827BE8CE
+        465F27CB8B9294404452F2105912C809EFD9ACBB3681249DEF481A06A038F13D
+        5C92C72449ACF1E461D9243288ED65CF41C9BA4848B994ADC14E09A4135A2040
+        3574FBED20D99B954A52BEED2CDF700672499310E2D2FC16D6868DFF62FAD41B
+        F5D8A38265672DE6B7B0000000CA2EF31EDB85175E28AD127DA8E48B5FFC22BF
+        C63B05E43568341A89BFC61B86E1DDBC2E00062175023195965C5EEB5EB2BB4B
+        555817A90A4B7E60B116D47690E4B95C3D67F931C936EA71F966F81AF5B8FCA8
+        A1576ADE8BD46B20DF81E975A5D513EA75B9B44EAF0B80C14B95404CF2B057F8
+        48A5F4B00AA948F58F2B9A2432F4E7492479A8ED20573F492B6C8D22E7879A96
+        2F5F2E27B2E504FAC36A9B2CF699442431A965BB3F8CB8465A1BAA6B7FC256D6
+        4D5A25F2BD187B32FD2AB58E979A320078952A81A88A519F50377BB5CD3D6FB3
+        472C15EA2E5551CD8D860E2FF57CCF51CF575A6156338938C94348CBEC04B5AD
+        B2FF3E7902B5DCE56AB9327F2187A9246127CEDB243919D7FEF409490440217A
+        26105321C965A24FA88AE8A868E82455714A025964F6B887FED87BAC3217B6E5
+        E5260FD916D24AEB9B5A9EDBFA6B26AC5EDC845697D706C060A5B9A194FDBE83
+        97BDE9AA5315B11C3A722B71A9A40B491E42250FFBBB5F0FC793874A2EBFA962
+        A54A16AB24D198C19A1957270D358FCADC580A4075A43D84A5AFE35795E35C55
+        39B61CD7578FE9DFC2528F1DA51EF392646CAB46C56A55115E2EC3A4B25415A1
+        0C9FA396F576BB47AD864B8B402A483971ECF5BC433766B96E4B44B68F1CB6F2
+        963CD4326CEB4FE62DCFB979523C69F94A737B09358E3DC4E87DDD0020ED2D6D
+        75C5239591546A5296AE394C2257656D569593AFE3FD9238EC5546CDAB8DD4B2
+        2F541D599654AAA7EA818A192EEB247BE02D7BE14572D7C152C35698A22FCDE7
+        134B1EB20D925A15ABD563CDABE4D4349264EDEB32B06D03A01E7A261093246C
+        E523C7E3774A0B4175A5E521876E64CF3FD571F9344CA52795A51C0EFAA21EA8
+        98B2243259DE2D7AA0A2CA57AB8E549232DD40F6B0CD36691EB6325DA11ED28F
+        F922F396E715BFC24D5E0F7BA5559C7B99B5906DA95B6B00E053D74358B18A52
+        484526AD02A9A474A5AD2A70B9326B20878DCA209E3CD4F35FACBA9258DDC4B1
+        267EBEC227D5CA704FACB790F5314918000AD53181C49387AA986AF15D8F6E54
+        C5ED9E776839611E7BACF0730EEAF5B1E7895C72A2FD0453068042251EC2923D
+        5CD52179C4986D20D176B5953C26DB49CA667B157A384D2DE3EDAAA3D7C5842C
+        5F5A43003010DD5A20F6CB83240F000000000000000000000000000000000000
+        00000000000000000000000000000000B51304FF1F1D47C621DF448056000000
+        0049454E44AE426082}
+      DesignVisible = False
+      Height = 50.000000000000000000
+      Visible = False
+      Width = 50.000000000000000000
+    end
+    object CheckBoxStyle: TLayout
+      StyleName = 'CheckBoxStyle'
+      Height = 50.000000000000000000
+      Position.X = 212.000000000000000000
+      Width = 205.000000000000000000
+      object TLayout
+        Align = alLeft
+        Height = 50.000000000000000000
+        Width = 18.000000000000000000
+        object TSubImage
+          StyleName = 'background'
+          Align = alCenter
+          Locked = True
+          Height = 13.000000000000000000
+          HitTest = False
+          MarginWrapMode = iwTile
+          SourceLookup = 'Windows 8 Desktop1style.png'
+          SourceRect.LeftI = 3
+          SourceRect.RightI = 16
+          SourceRect.TopI = 146
+          SourceRect.BottomI = 159
+          Width = 13.000000000000000000
+          WrapMode = iwCenter
+          object TRectAnimation
+            Duration = 0.000099999997473788
+            PropertyName = 'SourceRect'
+            StopValue.LeftI = 3
+            StopValue.RightI = 16
+            StopValue.TopI = 146
+            StopValue.BottomI = 159
+            Trigger = 'IsMouseOver=False;IsChecked=False'
+          end
+          object TRectAnimation
+            Duration = 0.000099999997473788
+            PropertyName = 'SourceRect'
+            StopValue.LeftI = 17
+            StopValue.RightI = 30
+            StopValue.TopI = 146
+            StopValue.BottomI = 159
+            Trigger = 'IsMouseOver=True;IsChecked=False'
+          end
+          object TRectAnimation
+            Duration = 0.000099999997473788
+            PropertyName = 'SourceRect'
+            StopValue.LeftI = 31
+            StopValue.RightI = 44
+            StopValue.TopI = 146
+            StopValue.BottomI = 159
+            Trigger = 'IsMouseOver=False;IsChecked=True'
+          end
+          object TRectAnimation
+            Duration = 0.000099999997473788
+            PropertyName = 'SourceRect'
+            StopValue.LeftI = 45
+            StopValue.RightI = 58
+            StopValue.TopI = 146
+            StopValue.BottomI = 159
+            Trigger = 'IsMouseOver=True;IsChecked=True'
+          end
+        end
+      end
+      object TText
+        StyleName = 'text'
+        Align = alClient
+        Color = claBlack
+        Locked = True
+        Height = 50.000000000000000000
+        HitTest = False
+        Margins.LeftI = 3
+        Width = 184.000000000000000000
+        object TColorAnimation
+          Duration = 0.000200000009499490
+          PropertyName = 'Color'
+          StartValue = claWhite
+          StopValue = claBlack
+          Trigger = 'IsMouseOver=False;IsPressed=False;IsFocused=False'
+        end
+        object TColorAnimation
+          Duration = 0.000200000009499490
+          PropertyName = 'Color'
+          StartValue = claWhite
+          StopValue = claBlack
+          Trigger = 'IsMouseOver=True;IsPressed=False'
+        end
+        object TColorAnimation
+          Duration = 0.000200000009499490
+          PropertyName = 'Color'
+          StartValue = claWhite
+          StopValue = claBlack
+          Trigger = 'IsMouseOver=False;IsFocused=True'
+        end
+        object TColorAnimation
+          Duration = 0.000200000009499490
+          PropertyName = 'Color'
+          StartValue = claWhite
+          StopValue = claBlack
+          Trigger = 'IsMouseOver=True;IsPressed=True'
+        end
+      end
+    end
+    object ListBoxItemstyle: TLayout
+      StyleName = 'ListBoxItemstyle'
+      Height = 50.000000000000000000
+      Position.X = 209.000000000000000000
+      Position.Y = 59.000000000000000000
+      Width = 208.000000000000000000
+      object text: TText
+        StyleName = 'text'
+        Align = alClient
+        Color = xFF70A83B
+        Height = 48.000000000000000000
+        HitTest = False
+        HorzTextAlign = taLeading
+        Margins.LeftI = 3
+        Margins.RightI = 3
+        Margins.TopI = 1
+        Margins.BottomI = 1
+        Width = 202.000000000000000000
+        WordWrap = False
+        object TColorAnimation
+          Duration = 0.000200000009499490
+          PropertyName = 'Color'
+          StartValue = xFF70A83B
+          StopValue = xFF70A83B
+          Trigger = 'IsSelected=true'
+          TriggerInverse = 'IsSelected=false'
+        end
+      end
+      object check: TCheckBox
+        StyleName = 'check'
+        Align = alLeft
+        CanFocus = False
+        DisableFocusEffect = True
+        Height = 19.000000000000000000
+        Position.X = 43.000000000000000000
+        TabOrder = 1
+        Text = 'check'
+        Visible = False
+        Width = 20.000000000000000000
+      end
+      object accessorymore: TLayout
+        StyleName = 'accessorymore'
+        Align = alMostRight
+        Height = 44.000000000000000000
+        Position.X = 68.000000000000000000
+        Visible = False
+        Width = 22.000000000000000000
+        object TSubImage
+          Align = alCenter
+          Height = 15.000000000000000000
+          HitTest = False
+          MarginWrapMode = iwTile
+          SourceLookup = 'StyleBook1Windows 8 Desktop1style.png'
+          SourceRect.LeftI = 131
+          SourceRect.RightI = 146
+          SourceRect.TopI = 358
+          SourceRect.BottomI = 373
+          Width = 15.000000000000000000
+          WrapMode = iwTile
+          object TRectAnimation
+            Duration = 0.000099999997473788
+            PropertyName = 'SourceRect'
+            StopValue.LeftI = 131
+            StopValue.RightI = 146
+            StopValue.TopI = 358
+            StopValue.BottomI = 373
+            Trigger = 'IsSelected=False'
+          end
+          object TRectAnimation
+            Duration = 0.000099999997473788
+            PropertyName = 'SourceRect'
+            StopValue.LeftI = 131
+            StopValue.RightI = 146
+            StopValue.TopI = 358
+            StopValue.BottomI = 373
+            Trigger = 'IsSelected=True'
+          end
+        end
+      end
+      object accessorycheckmark: TLayout
+        StyleName = 'accessorycheckmark'
+        Align = alMostRight
+        Height = 44.000000000000000000
+        Position.X = 138.000000000000000000
+        Visible = False
+        Width = 22.000000000000000000
+        object TSubImage
+          Align = alCenter
+          Height = 15.000000000000000000
+          HitTest = False
+          MarginWrapMode = iwTile
+          SourceLookup = 'StyleBook1Windows 8 Desktop1style.png'
+          SourceRect.LeftI = 152
+          SourceRect.RightI = 167
+          SourceRect.TopI = 358
+          SourceRect.BottomI = 373
+          Width = 15.000000000000000000
+          WrapMode = iwTile
+          object TRectAnimation
+            Duration = 0.000099999997473788
+            PropertyName = 'SourceRect'
+            StopValue.LeftI = 152
+            StopValue.RightI = 167
+            StopValue.TopI = 358
+            StopValue.BottomI = 373
+            Trigger = 'IsSelected=False'
+          end
+          object TRectAnimation
+            Duration = 0.000099999997473788
+            PropertyName = 'SourceRect'
+            StopValue.LeftI = 152
+            StopValue.RightI = 167
+            StopValue.TopI = 358
+            StopValue.BottomI = 373
+            Trigger = 'IsSelected=True'
+          end
+        end
+      end
+      object accessorydetail: TLayout
+        StyleName = 'accessorydetail'
+        Align = alMostRight
+        Height = 44.000000000000000000
+        Position.X = 99.000000000000000000
+        Visible = False
+        Width = 22.000000000000000000
+        object TSubImage
+          Align = alCenter
+          Height = 15.000000000000000000
+          HitTest = False
+          MarginWrapMode = iwTile
+          SourceLookup = 'StyleBook1Windows 8 Desktop1style.png'
+          SourceRect.LeftI = 173
+          SourceRect.RightI = 191
+          SourceRect.TopI = 358
+          SourceRect.BottomI = 373
+          Width = 18.000000000000000000
+          WrapMode = iwTile
+          object TRectAnimation
+            Duration = 0.000099999997473788
+            PropertyName = 'SourceRect'
+            StopValue.LeftI = 173
+            StopValue.RightI = 191
+            StopValue.TopI = 358
+            StopValue.BottomI = 373
+            Trigger = 'IsSelected=False'
+          end
+          object TRectAnimation
+            Duration = 0.000099999997473788
+            PropertyName = 'SourceRect'
+            StopValue.LeftI = 173
+            StopValue.RightI = 191
+            StopValue.TopI = 358
+            StopValue.BottomI = 373
+            Trigger = 'IsSelected=True'
+          end
+        end
+      end
+    end
+    object ListBoxstyle: TLayout
+      StyleName = 'ListBoxstyle'
+      Height = 200.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 5.000000000000000000
+      Width = 200.000000000000000000
+      object background: TRectangle
+        StyleName = 'background'
+        Align = alContents
+        Fill.Color = xFF2B2B2B
+        Height = 200.000000000000000000
+        HitTest = False
+        Stroke.Color = xFF70A83B
+        Width = 200.000000000000000000
+        object TLayout
+          Align = alClient
+          Height = 192.000000000000000000
+          Width = 192.000000000000000000
+          object vsmallscrollbar: TSmallScrollBar
+            StyleName = 'vsmallscrollbar'
+            Align = alRight
+            Height = 8.000000000000000000
+            SmallChange = 0.000000000000000000
+            Orientation = orVertical
+            Margins.LeftI = 2
+            Visible = False
+            Width = 8.000000000000000000
+          end
+          object hsmallscrollbar: TSmallScrollBar
+            StyleName = 'hsmallscrollbar'
+            Align = alBottom
+            Height = 8.000000000000000000
+            SmallChange = 0.000000000000000000
+            Orientation = orHorizontal
+            Margins.TopI = 2
+            Visible = False
+            Width = 150.000000000000000000
+          end
+        end
+        object content: TLayout
+          StyleName = 'content'
+          Align = alClient
+          ClipChildren = True
+          Height = 192.000000000000000000
+          Width = 192.000000000000000000
+          object selection: TRectangle
+            StyleName = 'selection'
+            Fill.Color = xFF5E5E5E
+            Height = 50.000000000000000000
+            HitTest = False
+            Position.X = 72.000000000000000000
+            Position.Y = 72.000000000000000000
+            Stroke.Kind = bkNone
+            Width = 50.000000000000000000
+          end
+        end
+        object footer: TLayout
+          StyleName = 'footer'
+          Align = alBottom
+          Height = 50.000000000000000000
+          Visible = False
+          Width = 50.000000000000000000
+        end
+        object header: TLayout
+          StyleName = 'header'
+          Align = alTop
+          Height = 50.000000000000000000
+          Visible = False
+          Width = 50.000000000000000000
+        end
+        object hscrollbar: TScrollBar
+          StyleName = 'hscrollbar'
+          Align = alBottom
+          Height = 8.000000000000000000
+          SmallChange = 0.000000000000000000
+          Orientation = orHorizontal
+          Position.Y = 192.000000000000000000
+          Width = 200.000000000000000000
+        end
+        object vscrollbar: TScrollBar
+          StyleName = 'vscrollbar'
+          Align = alRight
+          Height = 192.000000000000000000
+          SmallChange = 0.000000000000000000
+          Orientation = orVertical
+          Position.X = 192.000000000000000000
+          Width = 8.000000000000000000
+        end
+      end
+      object AlternatingRowBackground: TBrushObject
+        StyleName = 'AlternatingRowBackground'
+        Brush.Color = xFF2B2B2B
+        Left = 336
+        Top = 136
+      end
+    end
+    object ScrollBarStyle_2: TLayout
+      StyleName = 'ScrollBarStyle'
+      Height = 100.000000000000000000
+      Position.X = 208.000000000000000000
+      Position.Y = 111.000000000000000000
+      Width = 100.000000000000000000
+      object TButton
+        StyleName = 'leftbutton'
+        Align = alLeft
+        Height = 80.000000000000000000
+        Locked = True
+        Position.Y = 10.000000000000000000
+        StyleLookup = 'scrollbarleftbutton'
+        TabOrder = 0
+        Width = 10.000000000000000000
+      end
+      object TButton
+        StyleName = 'rightbutton'
+        Align = alRight
+        Height = 80.000000000000000000
+        Locked = True
+        Position.X = 90.000000000000000000
+        Position.Y = 10.000000000000000000
+        StyleLookup = 'scrollbarrightbutton'
+        TabOrder = 1
+        Width = 10.000000000000000000
+      end
+      object TButton
+        StyleName = 'topbutton'
+        Align = alTop
+        Height = 10.000000000000000000
+        Locked = True
+        StyleLookup = 'scrollbartopbutton'
+        TabOrder = 2
+        Width = 100.000000000000000000
+      end
+      object TButton
+        StyleName = 'bottombutton'
+        Align = alBottom
+        Height = 10.000000000000000000
+        Locked = True
+        Position.Y = 90.000000000000000000
+        StyleLookup = 'scrollbarbottombutton'
+        TabOrder = 3
+        Width = 100.000000000000000000
+      end
+      object TTrack
+        StyleName = 'htrack'
+        Align = alClient
+        Locked = True
+        Height = 80.000000000000000000
+        Orientation = orHorizontal
+        StyleLookup = 'scrollbarhtrackstyle'
+        TabOrder = 4
+        Width = 80.000000000000000000
+      end
+      object TTrack
+        StyleName = 'vtrack'
+        Align = alClient
+        Locked = True
+        Height = 80.000000000000000000
+        Orientation = orHorizontal
+        StyleLookup = 'scrollbarvtrackstyle'
+        TabOrder = 5
+        Width = 80.000000000000000000
+      end
+    end
+    object SmallScrollBarStyle_2: TLayout
+      StyleName = 'SmallScrollBarStyle'
+      Height = 100.000000000000000000
+      Position.X = 319.000000000000000000
+      Position.Y = 113.000000000000000000
+      Width = 100.000000000000000000
+      object TTrack
+        StyleName = 'htrack'
+        Align = alClient
+        Locked = True
+        Height = 100.000000000000000000
+        Orientation = orHorizontal
+        StyleLookup = 'scrollbarhtrackstyle'
+        TabOrder = 0
+        Width = 100.000000000000000000
+      end
+      object TTrack
+        StyleName = 'vtrack'
+        Align = alClient
+        Locked = True
+        Height = 100.000000000000000000
+        Orientation = orHorizontal
+        StyleLookup = 'scrollbarvtrackstyle'
+        TabOrder = 1
+        Width = 100.000000000000000000
+      end
+    end
+  end
+  object CheckBox: TLayout
+    StyleName = 'CheckBox'
+    Height = 50.000000000000000000
+    Position.X = 456.000000000000000000
+    Position.Y = 392.000000000000000000
+    Width = 145.000000000000000000
+    object CheckBoxstyle_7: TLayout
+      StyleName = 'CheckBoxstyle'
+      Height = 19.000000000000000000
+      Position.X = 9.000000000000000000
+      Position.Y = 15.000000000000000000
+      Width = 120.000000000000000000
+      object TLayout
+        Align = alLeft
+        Height = 19.000000000000000000
+        Width = 18.000000000000000000
+        object background_7: TRectangle
+          StyleName = 'background'
+          Align = alContents
+          Fill.Color = xFF9A999E
+          Height = 13.000000000000000000
+          HitTest = False
+          Margins.Left = 3.000000000000000000
+          Margins.Top = 3.000000000000000000
+          Margins.Right = 3.000000000000000000
+          Margins.Bottom = 3.000000000000000000
+          Stroke.Color = xFF70A83B
+          Stroke.Thickness = 1.500000000000000000
+          Width = 12.000000000000000000
+          object TColorAnimation
+            Duration = 0.200000002980232200
+            PropertyName = 'Fill.Color'
+            StartValue = xFF9A999E
+            StopValue = xFF8D8B92
+            Trigger = 'IsMouseOver=true'
+            TriggerInverse = 'IsMouseOver=false'
+          end
+          object TRectangle
+            Align = alClient
+            Fill.Color = claBlack
+            Height = 5.000000000000000000
+            HitTest = False
+            Opacity = 0.000000000000000000
+            Margins.Left = 4.000000000000000000
+            Margins.Top = 4.000000000000000000
+            Margins.Right = 4.000000000000000000
+            Margins.Bottom = 4.000000000000000000
+            Stroke.Kind = bkNone
+            Width = 4.000000000000000000
+            object TFloatAnimation
+              Duration = 0.200000002980232200
+              PropertyName = 'Opacity'
+              StartValue = 0.000000000000000000
+              StopValue = 1.000000000000000000
+              Trigger = 'IsChecked=true'
+              TriggerInverse = 'IsChecked=false'
+            end
+          end
+        end
+      end
+      object text_7: TText
+        StyleName = 'text'
+        Align = alClient
+        Color = xFF70A83B
+        Locked = True
+        Height = 19.000000000000000000
+        HitTest = False
+        Margins.LeftI = 3
+        Width = 99.000000000000000000
+      end
+    end
+  end
+end

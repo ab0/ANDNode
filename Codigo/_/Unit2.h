@@ -1,0 +1,180 @@
+//---------------------------------------------------------------------------
+
+#ifndef Unit2H
+#define Unit2H
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <FMX.Controls.hpp>
+#include <FMX.Forms.hpp>
+#include <FMX.Layouts.hpp>
+#include <FMX.Types.hpp>
+#include <FMX.Objects.hpp>
+#include <FMX.StdCtrls.hpp>
+#include <FMX.Ani.hpp>
+#include <FMX.Effects.hpp>
+#include <FMX.Edit.hpp>
+//---------------------------------------------------------------------------
+class TForm2 : public TForm
+{
+__published:	// IDE-managed Components
+	TLayout *acciones;
+	TLayout *titulos;
+	TLayout *sistema;
+	TButton *cerrar;
+	TButton *fijar;
+	TButton *restaurar;
+	TButton *bvigilar;
+	TButton *brefrescar;
+	TButton *bConsola;
+	TButton *bcontrol;
+	TButton *bguardar;
+	TButton *babrir;
+	TButton *bnuevo;
+	TText *titulo;
+	TLayout *Layout1;
+	TText *archivo;
+	TText *asterisco;
+	TRectangle *fondo;
+	TRectangle *fondo2;
+	TFloatAnimation *move1;
+	TColorAnimation *pres1;
+	TColorAnimation *pres2;
+	TRectAnimation *foco1;
+	TRectangle *fondo3;
+	TColorAnimation *pres1_2;
+	TColorAnimation *mover1_2;
+	TRectangle *fondo_3;
+	TColorAnimation *pres1_3;
+	TColorAnimation *mover1_3;
+	TLayout *ScrollBar;
+	TLayout *ScrollBox;
+	TLayout *Memo2;
+	TRectangle *scrollbarvtrackstyle;
+	TRectangle *scrollbarhtrackstyle;
+	TRectangle *scrollbarleftbutton;
+	TRectangle *scrollbarrightbutton;
+	TRectangle *scrollbartopbutton;
+	TRectangle *scrollbarbottombutton;
+	TLayout *hthumbstyle;
+	TLayout *smallscrollbarstyle;
+	TLayout *vthumbstyle;
+	TLayout *scrollbarstyle;
+	TBrushObject *d;
+	TBrushObject *e;
+	TLayout *ScrollBoxStyle;
+	TRectangle *background_1;
+	TLayout *memostyle_2;
+	TLayout *general;
+	TRectangle *background_3;
+	TRectangle *background_4;
+	TLayout *ListBoxstyle;
+	TLayout *ScrollBarStyle_2;
+	TLayout *SmallScrollBarStyle_2;
+	TLayout *ListBoxItemstyle;
+	TLayout *CheckBoxStyle;
+	TLayout *content;
+	TScrollBar *vscrollbar;
+	TScrollBar *hscrollbar;
+	TLayout *header;
+	TLayout *footer;
+	TSmallScrollBar *vsmallscrollbar;
+	TSmallScrollBar *hsmallscrollbar;
+	TBrushObject *AlternatingRowBackground;
+	TRectangle *background;
+	TText *text;
+	TCheckBox *check;
+	TLayout *accessorydetail;
+	TLayout *accessorycheckmark;
+	TLayout *accessorymore;
+	TRectangle *selection;
+	TLayout *barra;
+	TLayout *listbox_consola;
+	TRectangle *background_2;
+	TSmallScrollBar *vsmallscrollbar_2;
+	TSmallScrollBar *SmallScrollBar2;
+	TLayout *content_2;
+	TRectangle *selection_2;
+	TLayout *footer_2;
+	TLayout *header_2;
+	TScrollBar *hscrollbar_2;
+	TScrollBar *vscrollbar_2;
+	TBrushObject *AlternatingRowBackground_2;
+	TText *Text1;
+	TEdit *edit;
+	TRectangle *background_5;
+	TLayout *content_3;
+	TBrushObject *foreground_3;
+	TBrushObject *selection_3;
+	TFontObject *font_3;
+	TLayout *ListBox;
+	TLayout *ListBoxItem_consola;
+	TButton *bIniciar;
+	TButton *bParar;
+	TButton *bMicro;
+	TLayout *Menu_Nuevo;
+	TEdit *earchivo_2;
+	TButton *barchivo_2;
+	TRectangle *background_6;
+	TLayout *content_6;
+	TBrushObject *foreground_6;
+	TBrushObject *selection_6;
+	TFontObject *font_6;
+	TLayout *Menu_Abrir;
+	TEdit *Edit1;
+	TButton *Button1;
+	TLayout *lArchivo;
+	TLayout *lCarpeta;
+	TButton *bcarpeta_2;
+	TEdit *ecarpeta_2;
+	TRectangle *Rectangle1;
+	TFloatAnimation *FloatAnimation1;
+	TColorAnimation *ColorAnimation1;
+	TColorAnimation *ColorAnimation2;
+	TRectAnimation *RectAnimation1;
+	TRectangle *Rectangle2;
+	TLayout *Layout2;
+	TCheckBox *cRChrome;
+	TLayout *barra_titulo;
+	TLayout *CheckBoxstyle_7;
+	TText *text_7;
+	TLayout *CheckBox;
+	TRectangle *background_7;
+	TLayout *Menu_Control;
+	TButton *bAsociar;
+	TLayout *separacion;
+	TLayout *Menu_Consola;
+	TButton *bGuardar_2;
+	TLayout *separacion_2;
+	TButton *bLimpiar_2;
+	TLayout *Layout3;
+	TCheckBox *cRIExplorer;
+	TLayout *Layout4;
+	TCheckBox *cROpera;
+	TLayout *Layout5;
+	TCheckBox *cRMozilla;
+	TLayout *ScrollBoxvscrollbar;
+	TLayout *ScrollBoxhscrollbar;
+	TLayout *ScrollBoxvsmallscrollbar;
+	TLayout *ScrollBoxhsmallscrollbar;
+	TLayout *ScrollBoxsizegrip;
+	TLayout *smallscrollbarhtrackstyle;
+	TLayout *smallscrollbarvtrackstyle;
+	TLayout *boton_sistema1;
+	TLayout *boton_sistema2;
+	TLayout *ScrollBarStyle_consola;
+	TLayout *editstyle_consola;
+	TLayout *editstyle_normal;
+	TLayout *boton_normal;
+	TButton *bError;
+	TLayout *boton_menu;
+	TLayout *Menu_Error;
+	TButton *bVigilarError;
+	TLayout *separacion_3;
+private:	// User declarations
+public:		// User declarations
+	__fastcall TForm2(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TForm2 *Form2;
+//---------------------------------------------------------------------------
+#endif
