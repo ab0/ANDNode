@@ -21,6 +21,7 @@
 *.pdi
 *.tds
 *.ini
+*.local
 
 #Carpetas
 _notes
